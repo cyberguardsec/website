@@ -10,6 +10,7 @@ Clone the code and initialise git flow
 * `cd website`
 * `git flow init`
 * `git pull --ff-only`
+* `git submodule update --init --recursive`
 
 ### Install the build tools
 #### Linux
