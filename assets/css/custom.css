@@ -177,7 +177,7 @@ a:hover {
 }
 
 .btn {
-  cursor: pointer;
+  cursor: auto;
 }
 
 .btn.focus,
