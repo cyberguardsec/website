@@ -1,0 +1,11 @@
+############################### Banner ################################
+banner:
+  enable : true
+  bg_image : "images/backgrounds/hero-area.jpg"
+  icon : "images/icon.png"
+  title : "Cyber Security Reimagined"
+  content : "Tailor-made, cost effective and quick to market solutions. Trusted and highly efficient services."
+  button:
+    enable : true
+    label : "Coming Soon"
+    link : "#about"
