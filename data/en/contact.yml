@@ -30,5 +30,5 @@ contact:
     message : "Message"
     submit : "Submit"
 
-    contact_submit_success: "Thank you for contacting us, we will get back to you shortly on email."
+    contact_submit_success: "Thank you for contacting us, we have received your message and we are on it."
     contact_submit_failure: "Please ensure all fields are appropriately filled in and try again."

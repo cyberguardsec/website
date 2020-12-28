@@ -1,5 +1,5 @@
 function resetForm() {
-  $("#contact-form").reset();
+  $("#contact-form").trigger("reset");
 }
 
 function resetMessages() {
@@ -15,7 +15,7 @@ $(document).ready(function () {
       resetForm();
       resetMessages();
       $("#contact-success").addClass("success");
-    })
+    }, "json")
     .fail(function(errorData) {
       resetMessages();
       $("#contact-failure").addClass("error");
