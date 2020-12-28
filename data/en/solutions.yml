@@ -4,73 +4,41 @@ solutions:
   title : Our Solutions
   solutions_item :
     # solutions item loop
-    - name : Tag Design
+    - name : Crusoe Surf
       image : images/solutions/solutions-1.jpg
       image_webp : images/solutions/solutions-1.webp
-      categories : ["design"]
+      categories : ["products"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : "https://themefisher.com"
       
     # solutions item loop
-    - name : Sound system
+    - name : Privileged Identity Management
       image : images/solutions/solutions-2.jpg
       image_webp : images/solutions/solutions-2.webp
-      categories : ["development"]
+      categories : ["solutions"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : ""
       
     # solutions item loop
-    - name : Clock Product
+    - name : Firewall Analyser
       image : images/solutions/solutions-3.jpg
       image_webp : images/solutions/solutions-3.webp
-      categories : ["design", "development"]
+      categories : ["solutions"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : "#"
       
     # solutions item loop
-    - name : Bottol Label
+    - name : Chromium
       image : images/solutions/solutions-4.jpg
       image_webp : images/solutions/solutions-4.webp
-      categories : ["photography", "development"]
+      categories : ["open source"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : "#"
       
     # solutions item loop
-    - name : Shopping Bag
+    - name : WebKit
       image : images/solutions/solutions-5.jpg
       image_webp : images/solutions/solutions-5.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # solutions item loop
-    - name : Tag Design
-      image : images/solutions/solutions-6.jpg
-      image_webp : images/solutions/solutions-6.webp
-      categories : ["photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # solutions item loop
-    - name : Business Card
-      image : images/solutions/solutions-7.jpg
-      image_webp : images/solutions/solutions-7.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # solutions item loop
-    - name : Stationary Design
-      image : images/solutions/solutions-8.jpg
-      image_webp : images/solutions/solutions-8.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # solutions item loop
-    - name : Tag Design
-      image : images/solutions/solutions-2.jpg
-      image_webp : images/solutions/solutions-2.webp
-      categories : ["design", "photography"]
+      categories : ["open source"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : "#"

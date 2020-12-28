@@ -876,11 +876,11 @@ a:hover {
 }
 
 .solutions-block .caption h4 a {
-  color: #555;
+  color: #15212f;
 }
 
-.solutions-block .caption .search-icon {
-  background: #def2f4;
+.solutions-block .caption .link-icon {
+  background: #15212f;
   width: 50px;
   height: 50px;
   color: #fff;
@@ -889,7 +889,7 @@ a:hover {
   border-radius: 30px;
 }
 
-.solutions-block .caption .search-icon i {
+.solutions-block .caption .link-icon i {
   line-height: 50px;
 }
 
