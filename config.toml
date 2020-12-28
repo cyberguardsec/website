@@ -40,42 +40,36 @@ link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
 
-################### English Navigation ########################
-[[Languages.en.menu.main]]
-name = "About"
-pre = "#"
-url = "about"
+############################# Navigation ##################################
+[[menu.main]]
+name = "about"
+URL = "about"
 weight = 1
 
-[[Languages.en.menu.main]]
+[[menu.main]]
 name = "services"
-pre = "#"
-url = "services"
+URL = "services"
 weight = 2
 
-[[Languages.en.menu.main]]
+[[menu.main]]
 name = "portfolio"
-pre = "#"
-url = "portfolio"
+URL = "portfolio"
 weight = 3
 
-[[Languages.en.menu.main]]
+[[menu.main]]
 name = "team"
-pre = "#"
-url = "team"
+URL = "team"
 weight = 4
 
-[[Languages.en.menu.main]]
+[[menu.main]]
 name = "blog"
-pre = "#"
-url = "blog"
-weight = 6
+URL = "blog"
+weight = 5
 
-[[Languages.en.menu.main]]
+[[menu.main]]
 name = "contact"
-pre = "#"
-url = "contact"
-weight = 7
+URL = "contact"
+weight = 6
 
 ############################# Default Parameters ##########################
 [params]
@@ -90,17 +84,12 @@ post_share = true
 
 # preloader
 [params.preloader]
-enable = false
+enable = true
 preloader = "images/logo.png"
-
-# cookies
-[params.cookies]
-enable = false
-expire_days = 2
 
 # google map
 [params.map]
-enable = false
+enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
