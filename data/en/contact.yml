@@ -23,9 +23,12 @@ contact:
   # Contact form
   contact_form:
     enable : true
-    form_action : "#" #contact form works with https://formspree.io
-    name : "Your Name"
-    email : "Your Email"
+    form_action : "https://formspree.io/f/xgeppnbd" #contact form works with https://formspree.io
+    name : "Name"
+    email : "Email"
     subject : "Subject"
     message : "Message"
     submit : "Submit"
+
+    contact_submit_success: "Thank you for contacting us, we will get back to you shortly on email."
+    contact_submit_failure: "Please ensure all fields are appropriately filled in and try again."

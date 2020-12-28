@@ -92,13 +92,21 @@ a:hover {
 .btn {
   background-color: transparent;
   color: #fff;
+  cursor: pointer;
   padding: 10px 30px;
   border-radius: 0;
   transition: all .3s ease-in 0s;
 }
 
+.btn.focus,
 .btn:focus {
-  color: #ddd;
+  box-shadow: none;
+}
+
+.btn.active:focus,
+.btn:active:focus,
+.btn:focus {
+  outline: 0;
 }
 
 .btn-transparent {
@@ -147,14 +155,8 @@ a:hover {
   text-transform: uppercase;
 }
 
-.btn.active:focus,
-.btn:active:focus,
-.btn:focus {
-  outline: 0;
-}
-
 .bg-one {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .bg-dark {
@@ -174,15 +176,6 @@ a:hover {
 
 .inline-block {
   display: inline-block;
-}
-
-.btn {
-  cursor: pointer;
-}
-
-.btn.focus,
-.btn:focus {
-  box-shadow: none;
 }
 
 figure {
@@ -211,17 +204,20 @@ a:hover {
 
 .btn-main {
   background: #def2f4;
-  color: #fff;
+  color: #15212f;
   display: inline-block;
   font-size: 14px;
+  font-weight: 700;
   letter-spacing: 1px;
   padding: 10px 35px;
   text-transform: uppercase;
 }
 
+.btn-main:focus,
 .btn-main:hover {
-  background: #2c9091;
-  color: #fff;
+  background: #15212f;
+  border: 1px solid #def2f4;
+  color: #def2f4;
 }
 
 .mt-20 {
@@ -235,6 +231,14 @@ a:hover {
 
 .section-dark {
   color: #def2f4;
+}
+
+.section-dark .border-meghna {
+  border-top-color: rgba(222, 242, 244, 0.7);
+}
+
+.section-dark .border-meghna:before {
+  background-color: #def2f4;
 }
 
 .section-dark h1,
@@ -266,18 +270,8 @@ a:hover {
   padding: 50px 0;
 }
 
-.btn:focus {
-  color: #ddd;
-}
-
 #home {
   position: relative;
-}
-
-.btn.active:focus,
-.btn:active:focus,
-.btn:focus {
-  outline: 0;
 }
 
 .parallax-section {
@@ -293,7 +287,7 @@ a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #2c2f36;
+  background-color: #def2f4;
   z-index: 9999;
   display: flex;
   align-items: center;
@@ -692,12 +686,24 @@ a:hover {
   margin-bottom: 60px;
 }
 
+.contact-message {
+  display: none;
+}
+
+.contact-message.success {
+  display: block;
+}
+
+.contact-message.error {
+  display: block;
+}
+
 .form-meghna .form-control {
   background-color: transparent;
   border-radius: 0;
   padding: 5px 10px;
-  color: #ddd;
-  border: 1px solid rgba(236, 239, 241, 0.07);
+  color: #15212f;
+  border: 1px solid rgba(21, 33, 47, 0.25);
 }
 
 .form-meghna .form-control:focus {
@@ -707,24 +713,24 @@ a:hover {
 
 .form-meghna input:hover,
 .form-meghna textarea:hover {
-  border-color: #def2f4;
+  border-color: rgba(21, 33, 47, 0.7);
 }
 
 #contact-submit {
-  border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #def2f4;
+  background: rgba(21, 33, 47, 0.8);
+  color: #def2f4;
   padding: 12px 0;
   width: 100%;
   margin: 0;
 }
 
 #contact-submit:hover {
-  border-color: #2c9091;
-  background-color: #2c9091;
+  background-color: #15212f;
+  border: 1px solid transparent;
 }
 
 .form-meghna ::placeholder {
-  color: #ddd !important;
+  color: #15212f !important;
 }
 
 .google-map #map-canvas {
@@ -795,16 +801,16 @@ a:hover {
 }
 
 /*=================================================================
-  Portfolio section
+  Solutions section
 ==================================================================*/
-.portfolio-filter {
+.solutions-filter {
   margin-bottom: 40px;
   text-align: center;
 }
 
-.portfolio-filter .btn {
+.solutions-filter .btn {
   outline: 0;
-  border: 1px solid rgba(236, 239, 241, 0.07);
+  border: 1px solid rgba(21, 33, 47, 0.1);
   background: transparent;
   display: inline-block;
   font-size: 16px;
@@ -814,15 +820,15 @@ a:hover {
   transition: .3s all;
 }
 
-.portfolio-filter .btn.active {
-  border-color: #def2f4;
+.solutions-filter .btn.active {
+  border-color: #15212f;
 }
 
-.portfolio-block {
+.solutions-block {
   position: relative;
 }
 
-.portfolio-block:before {
+.solutions-block:before {
   transition: all 0.3s ease-in-out;
   background: white;
   opacity: 0;
@@ -834,25 +840,25 @@ a:hover {
   content: '';
 }
 
-.portfolio-block img {
+.solutions-block img {
   width: 100%;
   height: auto;
 }
 
-.portfolio-block:hover:before {
+.solutions-block:hover:before {
   opacity: 1;
 }
 
-.portfolio-block:hover .caption h4 {
+.solutions-block:hover .caption h4 {
   top: 45%;
 }
 
-.portfolio-block:hover .caption {
+.solutions-block:hover .caption {
   opacity: 1;
   top: 55%;
 }
 
-.portfolio-block .caption {
+.solutions-block .caption {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -864,16 +870,16 @@ a:hover {
   text-align: center;
 }
 
-.portfolio-block .caption h4 {
+.solutions-block .caption h4 {
   font-size: 16px;
   font-weight: 600;
 }
 
-.portfolio-block .caption h4 a {
+.solutions-block .caption h4 a {
   color: #555;
 }
 
-.portfolio-block .caption .search-icon {
+.solutions-block .caption .search-icon {
   background: #def2f4;
   width: 50px;
   height: 50px;
@@ -883,14 +889,14 @@ a:hover {
   border-radius: 30px;
 }
 
-.portfolio-block .caption .search-icon i {
+.solutions-block .caption .search-icon i {
   line-height: 50px;
 }
 
 /*=================================================================
   Services section
 ==================================================================*/
-.service-block {
+.services-block {
   padding: 60px 20px;
   border-left: 1px solid rgba(236, 239, 241, 0.07);
   border-top: 1px solid rgba(236, 239, 241, 0.07);
@@ -898,7 +904,7 @@ a:hover {
   box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
 }
 
-.service-block .service-icon {
+.services-block .services-icon {
   margin-bottom: 10px;
   font-size: 50px;
 }
@@ -906,24 +912,24 @@ a:hover {
 /*=================================================================
   Services section 2
 ==================================================================*/
-.service-2 .service-item {
+.services-2 .services-item {
   border: 1px solid #eee;
   margin-bottom: 30px;
   padding: 50px 20px;
   transition: all 0.3s ease 0s;
 }
 
-.service-2 .service-item:hover {
+.services-2 .services-item:hover {
   box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
 }
 
-.service-2 .service-item:hover i {
+.services-2 .services-item:hover i {
   background: #fff;
   color: #def2f4;
 }
 
-.service-2 .service-item i {
+.services-2 .services-item i {
   font-size: 30px;
   display: inline-block;
   background: #def2f4 none repeat scroll 0 0;
@@ -938,14 +944,14 @@ a:hover {
 }
 
 /*=================================================================
-  Our skills
+  Our Skills
 ==================================================================*/
-.skill-bar p {
+.skills-bar p {
   font-size: 18px;
   margin-bottom: 0;
 }
 
-.skill-bar p span {
+.skills-bar p span {
   font-style: italic;
   font-size: 30px;
   color: rgba(187, 187, 187, 0.34);
@@ -953,12 +959,12 @@ a:hover {
   vertical-align: middle;
 }
 
-.skill-bar .progress {
+.skills-bar .progress {
   height: 6px;
   border-radius: 0;
 }
 
-.skill-bar .progress .progress-bar {
+.skills-bar .progress .progress-bar {
   background: #def2f4;
 }
 
@@ -1165,7 +1171,7 @@ a:hover {
 }
 
 .post-block {
-  background-color: #15212f;
+  background-color: #292f36;
   margin-bottom: 10px;
 }
 
@@ -1178,6 +1184,16 @@ a:hover {
   font-size: 20px;
   line-height: 1.5;
   text-transform: capitalize;
+}
+
+.post-block .content .btn-transparent {
+  border-color: #def2f4;
+}
+
+.post-block .content .btn-transparent:hover,
+.post-block .content .btn-transparent:focus {
+  background-color: #def2f4;
+  color: #15212f;
 }
 
 .note .media-wrapper {
@@ -1453,8 +1469,12 @@ input#e-mail,
 /*=================================================================
   Footer section
 ==================================================================*/
+.footer {
+  background-color: #def2f4;
+}
+
 .social-icon {
-  padding: 60px 0 35px;
+  padding: 20px 0 0;
 }
 
 .social-icon ul {
@@ -1466,8 +1486,9 @@ input#e-mail,
 }
 
 .social-icon ul li a {
-  background-color: #26292e;
+  background-color: #15212f;
   border: 1px solid transparent;
+  border-radius: 50%;
   display: block;
   height: 70px;
   width: 70px;
@@ -1475,7 +1496,7 @@ input#e-mail,
 }
 
 .social-icon ul li a:hover {
-  background: #def2f4;
+  background: #15212f;
 }
 
 .social-icon ul li a:hover i {
@@ -1495,7 +1516,7 @@ input#e-mail,
 
 .copyright {
   padding: 20px 0;
-  color: #fff;
+  color: #15212f;
 }
 
 .copyright img {
@@ -1504,48 +1525,6 @@ input#e-mail,
 
 .copyright p {
   margin-top: 10px;
-}
-
-#scrollUp {
-  border: 1px solid #4e595f;
-  bottom: 15px;
-  color: #fff;
-  display: none;
-  padding: 8px 12px;
-  position: fixed;
-  right: 20px;
-  z-index: 600;
-}
-
-#scrollUp:hover {
-  background-color: #def2f4;
-  border: 1px solid #def2f4;
-}
-
-/*=================================================================
-	Twitter Feed
-==================================================================*/
-
-.twitter-bird span {
-  border: 2px solid #6cb670;
-  border-radius: 50px;
-  color: #6cb670;
-  display: inline-block;
-  margin-bottom: 50px;
-  height: 90px;
-  width: 90px;
-}
-
-.twitter-bird span i {
-  line-height: 90px;
-}
-
-.tweet {
-  margin-bottom: 10px;
-}
-
-.tweet a {
-  color: #6cb670;
 }
 
 /*=================================================================
@@ -2216,8 +2195,8 @@ figcaption {
 }
 
 #select-language {
-  background: #ffffff;
-  color: #ffffff;
+  background: #fff;
+  color: #fff;
   border: 0;
 }
 
