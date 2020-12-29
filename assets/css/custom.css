@@ -900,47 +900,21 @@ a:hover {
   padding: 60px 20px;
   border-left: 1px solid rgba(236, 239, 241, 0.07);
   border-top: 1px solid rgba(236, 239, 241, 0.07);
+  border-radius: 10%;
   margin-bottom: 40px;
-  box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
+}
+
+.services-block.services {
+  box-shadow: 7px 7px 5px rgba(35, 85, 147, 0.5);
+}
+
+.services-block.devsecops {
+  box-shadow: 7px 7px 5px rgba(190, 53, 52, 0.5);
 }
 
 .services-block .services-icon {
   margin-bottom: 10px;
   font-size: 50px;
-}
-
-/*=================================================================
-  Services section 2
-==================================================================*/
-.services-2 .services-item {
-  border: 1px solid #eee;
-  margin-bottom: 30px;
-  padding: 50px 20px;
-  transition: all 0.3s ease 0s;
-}
-
-.services-2 .services-item:hover {
-  box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
-}
-
-.services-2 .services-item:hover i {
-  background: #fff;
-  color: #def2f4;
-}
-
-.services-2 .services-item i {
-  font-size: 30px;
-  display: inline-block;
-  background: #def2f4 none repeat scroll 0 0;
-  border-radius: 30px;
-  box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
-  color: #fff;
-  height: 55px;
-  line-height: 55px;
-  margin-bottom: 20px;
-  width: 55px;
-  transition: all 0.3s ease 0s;
 }
 
 /*=================================================================
@@ -2173,14 +2147,14 @@ figcaption {
   border: 1px solid #26292e;
   text-align: center;
   margin-right: 6px;
-  font-weight: 700;
+  font-weight: 400;
   color: #55606a;
 }
 
 .pagination .page-item .page-link:hover {
   background: #def2f4;
   border-color: #def2f4;
-  color: #fff
+  color: #15212f
 }
 
 .pagination .page-item:first-child .page-link,
@@ -2190,8 +2164,8 @@ figcaption {
 
 .pagination .page-item.active .page-link {
   background: #def2f4;
-  color: #fff;
   border-color: #def2f4;
+  color: #15212f;
 }
 
 #select-language {
