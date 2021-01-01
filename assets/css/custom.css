@@ -412,16 +412,16 @@ a:hover {
   margin-bottom: 0;
 }
 
-.navbar-dark .navbar-nav a.nav-link {
+.navbar-light .navbar-nav a.nav-link {
   color: #15212f;
 }
 
-.navbar-dark .navbar-nav .active>.nav-link,
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link.show,
-.navbar-dark .navbar-nav .show>.nav-link,
-.navbar-dark .navbar-nav a.nav-link:focus,
-.navbar-dark .navbar-nav a.nav-link:hover {
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav a.nav-link:focus,
+.navbar-light .navbar-nav a.nav-link:hover {
   color: #15212f;
   font-weight: 700;
 }
@@ -1464,8 +1464,8 @@ input#e-mail,
   border: 1px solid transparent;
   border-radius: 50%;
   display: block;
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
   transition: all 400ms ease-out 0s;
 }
 
@@ -1481,8 +1481,8 @@ input#e-mail,
 .social-icon ul li a i {
   color: #55606a;
   display: inline-block;
-  font-size: 32px;
-  line-height: 70px;
+  font-size: 25px;
+  line-height: 50px;
   margin: 0;
   opacity: 0.3;
   transition: all 400ms ease-out 0s;
