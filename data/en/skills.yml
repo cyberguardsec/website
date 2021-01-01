@@ -48,6 +48,12 @@ skills:
     - name :  Swift (iOS)
       image : images/skills/swift.png
 
+    - name :  Scala
+      image : images/skills/scala.png
+
+    - name :  Akka
+      image : images/skills/akka.png
+
     - name :  C++
       image : images/skills/c++.png
 
