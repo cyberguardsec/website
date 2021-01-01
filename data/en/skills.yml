@@ -42,6 +42,9 @@ skills:
     - name :  Python
       image : images/skills/python.png
 
+    - name :  WebKit
+      image : images/skills/webkit.png
+
     - name :  Android
       image : images/skills/android.png
 
