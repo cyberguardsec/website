@@ -3,42 +3,51 @@ solutions:
   enable : true
   title : Our Solutions
   solutions_item :
-    # solutions item loop
-    - name : Crusoe Surf
-      image : images/solutions/solutions-1.jpg
-      image_webp : images/solutions/solutions-1.webp
-      categories : ["products"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "https://themefisher.com"
-      
-    # solutions item loop
-    - name : Privileged Identity Management
-      image : images/solutions/solutions-2.jpg
-      image_webp : images/solutions/solutions-2.webp
-      categories : ["solutions"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : ""
-      
-    # solutions item loop
-    - name : Firewall Analyser
-      image : images/solutions/solutions-3.jpg
-      image_webp : images/solutions/solutions-3.webp
-      categories : ["solutions"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # solutions item loop
     - name : Chromium
       image : images/solutions/solutions-4.jpg
       image_webp : images/solutions/solutions-4.webp
-      categories : ["open source"]
+      categories : ["Solutions"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : "#"
-      
-    # solutions item loop
+
     - name : WebKit
       image : images/solutions/solutions-5.jpg
       image_webp : images/solutions/solutions-5.webp
-      categories : ["open source"]
+      categories : ["Solutions"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+
+    - name : Crusoe Surf
+      image : images/solutions/solution-crusoe.png
+      # image_webp : images/solutions/solutions-1.webp
+      categories : ["Products"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+
+    - name : Privileged Identity Management
+      image : images/solutions/solution-crusoe.png
+      # image_webp : images/solutions/solutions-1.webp
+      categories : ["Products"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : ""
+      
+    - name : Firewall Analyser
+      image : images/solutions/solution-crusoe.png
+      # image_webp : images/solutions/solutions-1.webp
+      categories : ["Products"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+
+    - name : Chromium
+      image : images/solutions/solutions-4.jpg
+      image_webp : images/solutions/solutions-4.webp
+      categories : ["Open Source"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+
+    - name : WebKit
+      image : images/solutions/solutions-5.jpg
+      image_webp : images/solutions/solutions-5.webp
+      categories : ["Open Source"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : "#"

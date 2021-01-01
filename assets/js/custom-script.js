@@ -8,6 +8,10 @@ function resetMessages() {
 }
 
 $(document).ready(function () {
+  // Solutions trigger to initialise the first item
+  $("#solutions .btn.active").click();
+
+  // Contact form handling
   $("#contact-form").on("submit", function( event) {
     event.preventDefault();
 

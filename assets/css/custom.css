@@ -825,12 +825,16 @@ a:hover {
 }
 
 .solutions-block {
+  background: #15212f;
+  border-radius: 10%;
+  box-shadow: 7px 7px 5px #6a9913;
   position: relative;
 }
 
 .solutions-block:before {
   transition: all 0.3s ease-in-out;
   background: white;
+  border-radius: 10%;
   opacity: 0;
   top: 20px;
   right: 20px;
@@ -880,7 +884,7 @@ a:hover {
 }
 
 .solutions-block .caption .link-icon {
-  background: #15212f;
+  background: #6a9913;
   width: 50px;
   height: 50px;
   color: #fff;
@@ -921,7 +925,6 @@ a:hover {
   Our Skills
 ==================================================================*/
 .skills-item {
-  transition: all 0.3s ease-in-out;
   height: 60px;
   width: auto;
 }
