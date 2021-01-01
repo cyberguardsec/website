@@ -12,9 +12,6 @@ skills:
     - name :  Apache Kafka
       image : images/skills/kafka.png
 
-    - name :  Apache Guacamole
-      image : images/skills/guacamole.png
-
     - name :  Java
       image : images/skills/java.png
 
@@ -24,17 +21,20 @@ skills:
     - name :  NodeJS
       image : images/skills/nodejs.png
 
+    - name :  Apache Guacamole
+      image : images/skills/guacamole.png
+
     - name :  Serverless
       image : images/skills/serverless.png
 
     - name :  AWS
       image : images/skills/aws.png
 
+    - name :  Apache Cassandra
+      image : images/skills/cassandra.png
+
     - name :  Apache Spark
       image : images/skills/spark.png
-
-    - name :  CockroachDB
-      image : images/skills/cockroachdb.png
 
     - name :  Go
       image : images/skills/go.png
@@ -62,6 +62,9 @@ skills:
 
     - name :  Kubernetes
       image : images/skills/kubernetes.png
+
+    - name :  CockroachDB
+      image : images/skills/cockroachdb.png
 
     - name :  Envoy Proxy
       image : images/skills/envoy.png
