@@ -925,6 +925,7 @@ a:hover {
   Our Skills
 ==================================================================*/
 .skills-item {
+  transition: all 0.3s ease-in-out;
   height: 60px;
   width: auto;
 }
