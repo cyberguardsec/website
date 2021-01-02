@@ -833,7 +833,7 @@ a:hover {
 
 .solutions-block:before {
   transition: all 0.3s ease-in-out;
-  background: white;
+  background: #fff;
   border-radius: 10%;
   opacity: 0;
   top: 20px;
