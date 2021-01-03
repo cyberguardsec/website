@@ -6,14 +6,15 @@ about:
   - icon : ti-dropbox # themify icon pack : https://themify.me/themify-icons
     title : Solutions
     type: solutions
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    content : Cyber security products. White labelled customisable end to end solutions and components. Open source frameworks and modules.
 
   - icon : ti-settings # themify icon pack : https://themify.me/themify-icons
     title : Services
     type: services
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    content : Result oriented, efficient and reasonably priced services over a wide range of modern technologies and programming languages.
 
   - icon : ti-infinite # themify icon pack : https://themify.me/themify-icons
     title : DevSecOps
     type: devsecops
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    content : DevOps with a security oriented approach with vulnerability assessment paradigms factored in for CI/CD tools and Deployment topologies.
+  

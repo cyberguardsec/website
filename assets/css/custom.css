@@ -652,18 +652,31 @@ a:hover {
   background-attachment: fixed;
 }
 
+.call-to-action:before {
+  content: '';
+  background: rgba(21, 33, 47, 0.75);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 .call-to-action h2 {
-  font-weight: 700;
-  color: #444;
+  font-weight: 400;
+  color: #def2f4;
 }
 
 .call-to-action p {
+  color: #def2f4;
   font-size: 16px;
-  color: #666;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .call-to-action .btn-transparent {
-  color: #15212f;
+  border-color: #def2f4;
+  color: #def2f4;
   margin-top: 20px;
 }
 
