@@ -546,7 +546,7 @@ a:hover {
 .about .block {
   color: #fff;
   padding: 30px;
-  border-bottom: 2px solid transparent;
+  border-bottom: 3px solid transparent;
   transition: .5s all;
   margin-bottom: 20px;
 }
@@ -568,7 +568,7 @@ a:hover {
 }
 
 .about .block:hover {
-  border-bottom: 2px solid #15212f;
+  border-bottom: 3px solid #15212f;
 }
 
 .about .block:hover .icon-box {
@@ -577,6 +577,7 @@ a:hover {
 }
 
 .about .block .icon-box {
+  display: block;
   position: relative;
   width: 160px;
   height: 92.38px;

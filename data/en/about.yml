@@ -7,14 +7,17 @@ about:
     title : Solutions
     type: solutions
     content : Cyber security products. White labelled customisable end to end solutions and components. Open source frameworks and modules.
+    link : "#solutions"
 
   - icon : ti-settings # themify icon pack : https://themify.me/themify-icons
     title : Services
     type: services
     content : Result oriented, efficient and reasonably priced services over a wide range of modern technologies and programming languages.
+    link : "#services"
 
   - icon : ti-infinite # themify icon pack : https://themify.me/themify-icons
     title : DevSecOps
     type: devsecops
     content : DevOps with a security oriented approach with vulnerability assessment paradigms factored in for CI/CD tools and Deployment topologies.
+    link : "#services"
   
