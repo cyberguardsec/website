@@ -410,6 +410,25 @@ a:hover {
   background-color: #def2f4;
   width: 100%;
   margin-bottom: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.navigation.scroll-top {
+  background: none;
+}
+
+.navigation.scroll-top .navbar-light .navbar-nav a.nav-link {
+  color: #fff;
+}
+
+.navigation.scroll-top .navbar-light .navbar-nav .active>.nav-link,
+.navigation.scroll-top .navbar-light .navbar-nav .nav-link.active,
+.navigation.scroll-top .navbar-light .navbar-nav .nav-link.show,
+.navigation.scroll-top .navbar-light .navbar-nav .show>.nav-link,
+.navigation.scroll-top .navbar-light .navbar-nav a.nav-link:focus,
+.navigation.scroll-top .navbar-light .navbar-nav a.nav-link:hover {
+  color: #fff;
+  font-weight: 700;
 }
 
 .navbar-light .navbar-nav a.nav-link {
@@ -424,6 +443,10 @@ a:hover {
 .navbar-light .navbar-nav a.nav-link:hover {
   color: #15212f;
   font-weight: 700;
+}
+
+.navbar-brand {
+  transition: all 0.3s ease-in-out;
 }
 
 .navbar-toggler:focus {

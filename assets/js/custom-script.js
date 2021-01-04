@@ -8,6 +8,19 @@ function resetMessages() {
 }
 
 $(document).ready(function () {
+  // Change menu styling if not on top
+  $(window).scroll(function() {
+    var navbar_section = $(".navigation");
+    var navbar_brand = $(".navbar > .navbar-brand");
+    if ($(this).scrollTop() < ($(this).height() / 2)) {
+      navbar_section.addClass("scroll-top");
+      navbar_brand.css("opacity", "0");
+    } else {
+      navbar_section.removeClass("scroll-top");
+      navbar_brand.css("opacity", "1");
+    }
+  });
+
   // Solutions trigger to initialise the first item
   $("#solutions .btn.active").click();
 
