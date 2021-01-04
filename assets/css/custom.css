@@ -1044,10 +1044,11 @@ a:hover {
   Testimonial section
 ==================================================================*/
 .testimonial:before {
-  background: rgba(42, 48, 55, 0.7);
+  background: rgba(42, 48, 55, 0.75);
 }
 
 .client-info {
+  color: #def2f4;
   margin: 0 auto;
   width: 45%;
 }
@@ -1059,8 +1060,8 @@ a:hover {
 }
 
 .client-comment p {
-  color: #afbac4;
   font-size: 18px;
+  margin: 15px 0 0;
 }
 
 .client-thumb img {
@@ -1075,11 +1076,12 @@ a:hover {
 }
 
 .client-meta h3 {
+  color: #def2f4;
   margin: 15px 0 5px .0;
 }
 
 .client-meta span {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .owl-pagination,
