@@ -3,38 +3,58 @@ services:
   enable : true
   title : Our Services
   services_item :
-    # services item loop
-    - name : WordPress Theme
+    - name : Full Stack Applications
+      type: services
+      icon : ti-layers-alt # themify icon pack : https://themify.me/themify-icons
+      content : >
+        Server-side applications across multiple frameworks, languages and databases.
+        Frontend web portals with real time statistical data representations.
+
+    - name : Mobile Applications
+      type: services
+      icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+      content : >
+        iOS and Android applications both native with Objective-C, Swift, Java
+        as well as hybrid with React Native, Flutter and Ionic/Cordova/PhoneGap.
+
+    - name : Browser Engines
       type: services
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : >
+        In-depth knowledge of open source browser engines such as Chromium and WebKit.
+        Customised browser engine development for specialised use cases.
 
-    # services item loop
-    - name : Responsive Design
+    - name : Cloud-Native Applications
       type: services
-      icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      icon : ti-dropbox # themify icon pack : https://themify.me/themify-icons
+      content : >
+        Microservices based scalable dockerised applications designed to be deployed
+        and orchestrated on-premise or on the cloud.
 
-    # services item loop
-    - name : Media &amp; Advertisement
-      type: devsecops
-      icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    - name : Internet of Things
+      type: services
+      icon : ti-signal # themify icon pack : https://themify.me/themify-icons
+      content : >
+        Development of solutions built with C++ and Python deployed on Class 2 and 3
+        medical devices as well as customised WiFi routers to monitor and secure
+        Smart Home systems.
 
-    # services item loop
-    - name : Graphic Design
-      type: devsecops
+    - name : AI/ML
+      type: services
       icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
-    # services item loop
-    - name : Apps Development
-      type: devsecops
-      icon : ti-package # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : >
 
-    # services item loop
-    - name : Networking
-      type: services
-      icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    - name : Deployment Architecture
+      type: devsecops
+      icon : ti-layout-grid3 # themify icon pack : https://themify.me/themify-icons
+      content : >
+
+    - name : CI/CD Pipelines
+      type: devsecops
+      icon : ti-align-justify # themify icon pack : https://themify.me/themify-icons
+      content : >
+
+    - name : Cloud Infrastructure
+      type: devsecops
+      icon : ti-cloud-up # themify icon pack : https://themify.me/themify-icons
+      content : >
