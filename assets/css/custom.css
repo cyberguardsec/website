@@ -425,7 +425,6 @@ a:hover {
 .navigation.scroll-top .navbar-light .navbar-nav .nav-link.active,
 .navigation.scroll-top .navbar-light .navbar-nav .nav-link.show,
 .navigation.scroll-top .navbar-light .navbar-nav .show>.nav-link,
-.navigation.scroll-top .navbar-light .navbar-nav a.nav-link:focus,
 .navigation.scroll-top .navbar-light .navbar-nav a.nav-link:hover {
   color: #fff;
   font-weight: 700;
@@ -439,7 +438,6 @@ a:hover {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link,
-.navbar-light .navbar-nav a.nav-link:focus,
 .navbar-light .navbar-nav a.nav-link:hover {
   color: #15212f;
   font-weight: 700;
@@ -447,6 +445,7 @@ a:hover {
 
 .navbar-brand {
   transition: all 0.3s ease-in-out;
+  opacity: 0;
 }
 
 .navbar-toggler:focus {

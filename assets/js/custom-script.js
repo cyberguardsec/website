@@ -7,18 +7,23 @@ function resetMessages() {
   $("#contact-failure").removeClass("error");
 }
 
+function updateNavbar() {
+  var navbar_section = $(".navigation");
+  var navbar_brand = $(".navbar > .navbar-brand");
+  if ($(this).scrollTop() < 10) {
+    navbar_section.addClass("scroll-top");
+    navbar_brand.css("opacity", "0");
+  } else {
+    navbar_section.removeClass("scroll-top");
+    navbar_brand.css("opacity", "1");
+  }
+}
+
 $(document).ready(function () {
-  // Change menu styling if not on top
+  // Change menu styling if not on top, on load and then on scroll
+  updateNavbar();
   $(window).scroll(function() {
-    var navbar_section = $(".navigation");
-    var navbar_brand = $(".navbar > .navbar-brand");
-    if ($(this).scrollTop() < ($(this).height() / 2)) {
-      navbar_section.addClass("scroll-top");
-      navbar_brand.css("opacity", "0");
-    } else {
-      navbar_section.removeClass("scroll-top");
-      navbar_brand.css("opacity", "1");
-    }
+    updateNavbar();
   });
 
   // Solutions trigger to initialise the first item
