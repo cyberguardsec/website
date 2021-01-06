@@ -1,5 +1,9 @@
 {{"<!-- end Contact Area -->" | safeHTML}}
-<footer id="footer" class="footer">
+
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ with $data.footer.footer }}
+{<footer id="footer" class="footer">
 	<div class="container">
 		<div class="row wow fadeInUp" data-wow-duration="500ms">
 			<div class="col-lg-6">
@@ -9,7 +13,7 @@
 						<img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" height="42" />
 					</a>
 					<br>
-					<p>{{ site.Params.copyright | markdownify }}</p>
+					<p>{{ .copyright | markdownify }}</p>
 				</div>
 			</div>
 
@@ -23,10 +27,13 @@
 					</ul>
 				</div>
 			</div>
+
+			<p class="disclaimer">{{ .disclaimer }}</p>
 		</div>
 	</div>
 </footer>
 {{"<!-- /footer -->" | safeHTML}}
+{{ end }}
 
 {{ "<!-- Google Map API -->" | safeHTML }}
 {{ if site.Params.map.enable }}
