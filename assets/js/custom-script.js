@@ -10,7 +10,7 @@ function resetMessages() {
 function updateNavbar() {
   var navbar_section = $(".navigation");
   var navbar_brand = $(".navbar > .navbar-brand");
-  if ($(this).scrollTop() < 10) {
+  if ($(window).scrollTop() < 100) {
     navbar_section.addClass("scroll-top");
     navbar_brand.css("opacity", "0");
   } else {
