@@ -18,11 +18,9 @@
 						{{ range .feature_item }}
 						<div class="col-lg-6">
 							<div class="media">
-								{{with .icon}}
 								<div class="align-self-start mr-3">
-									<i class="{{ . }}"></i>
+									<i class="{{ .icon }} {{ .type }}"></i>
 								</div>
-								{{ end }}
 								<div class="media-body">
 									<h4 class="media-heading">{{ .title | markdownify }}</h4>
 									<p>{{ .content | markdownify }}</p>

@@ -674,6 +674,18 @@ a:hover {
   color: #def2f4;
 }
 
+.about-2 .content-block .media i.solutions {
+  color: #6a9913;
+}
+
+.about-2 .content-block .media i.services {
+  color: #235593;
+}
+
+.about-2 .content-block .media i.devsecops {
+  color: #be3534;
+}
+
 .about-2 .content-block .media h4 {
   font-size: 16px;
   font-weight: 600;
