@@ -414,7 +414,7 @@ a:hover {
 }
 
 .navigation.scroll-top {
-  background: none;
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .navigation.scroll-top .navbar-light .navbar-nav a.nav-link {
@@ -431,7 +431,7 @@ a:hover {
 }
 
 .navigation.scroll-top .navbar-light .navbar-toggler {
-  border-color: rgba(255,255,255,.1);
+  border-color: rgba(255, 255, 255, 0.7);
 }
 
 .navigation.scroll-top .navbar-light .navbar-toggler-icon {
