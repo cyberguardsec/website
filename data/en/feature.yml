@@ -8,7 +8,7 @@ feature:
     We distribute Cyber Security Products, create Solutions and Frameworks, and
     provide Software Development and DevOps Services with a Security First Approach.
   feature_item : 
-    - title : Products, Solutions & Components
+    - title : Products, Solutions &amp; Components
       icon : ti-package
       type: solutions
       content : >
@@ -29,7 +29,7 @@ feature:
         Design and implement Highly Available, Scalable and Secure Systems using
         modern languages and frameworks including Go, Python, Java, Scala, C++.
 
-    - title : Data Processing, Streaming & Storage
+    - title : Data Processing, Streaming &amp; Storage
       icon : ti-harddrives
       type: services
       content : >
@@ -50,7 +50,7 @@ feature:
         Design Deployments with Deep Integration on VPS, Databases, Orchestration, Serverless
         and other services from providers such as AWS, Azure, Google Cloud.
 
-    - title : Threat & Risk Assessment
+    - title : Threat &amp; Risk Assessment
       icon : ti-panel
       type: devsecops
       content : >

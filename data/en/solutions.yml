@@ -3,51 +3,65 @@ solutions:
   enable : true
   title : Our Solutions
   solutions_item :
-    - name : Chromium
+    - name : Threat Mitigation
       image : images/solutions/solutions-4.jpg
       image_webp : images/solutions/solutions-4.webp
       categories : ["Solutions"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      content : Malware, Ransomware, Phishing (URL filtering &amp; Malicious Email Links).
       link : "#"
 
-    - name : WebKit
+    - name : Data and IP Protection
       image : images/solutions/solutions-5.jpg
       image_webp : images/solutions/solutions-5.webp
       categories : ["Solutions"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      content : Fine-grained Data Access Control for OUs, Groups and Individuals.
+      link : "#"
+
+    - name : Compliances &amp; Regulations
+      image : images/solutions/solutions-5.jpg
+      image_webp : images/solutions/solutions-5.webp
+      categories : ["Solutions"]
+      content : Stay one step ahead in adhering to Security Compliances.
+      link : "#"
+
+    - name : Work From Home
+      image : images/solutions/solutions-5.jpg
+      image_webp : images/solutions/solutions-5.webp
+      categories : ["Solutions"]
+      content : Securely Work from Anywhere and at Anytime.
       link : "#"
 
     - name : Crusoe Surf
-      image : images/solutions/solution-crusoe.png
-      # image_webp : images/solutions/solutions-1.webp
+      image : images/solutions/products/crusoe.png
+      image_webp : images/products/solutions/crusoe.webp
       categories : ["Products"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      content : Unleash the power of next generation cyber security technology.
       link : "#"
 
     - name : Privileged Identity Management
-      image : images/solutions/solution-crusoe.png
-      # image_webp : images/solutions/solutions-1.webp
+      image : images/solutions/products/pim.png
+      image_webp : images/solutions/products/pim.webp
       categories : ["Products"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : ""
-      
+      content : Manage, Control &amp; Monitor Enterprise Assets and Resources.
+      link : "#"
+
     - name : Firewall Analyser
-      image : images/solutions/solution-crusoe.png
-      # image_webp : images/solutions/solutions-1.webp
+      image : images/solutions/products/rba.png
+      image_webp : images/solutions/products/rba.webp
       categories : ["Products"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      content : Analysis of Firewall Rules for Risk Indentification &amp; Remediation.
       link : "#"
 
     - name : Chromium
-      image : images/solutions/solutions-4.jpg
-      image_webp : images/solutions/solutions-4.webp
+      image : images/solutions/open-source/chromium.png
+      image_webp : images/solutions/open-source/chromium.webp
       categories : ["Open Source"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      content : Customisation &amp; Enhancement of Chromium and Blink.
       link : "#"
 
     - name : WebKit
-      image : images/solutions/solutions-5.jpg
-      image_webp : images/solutions/solutions-5.webp
+      image : images/solutions/open-source/webkit.png
+      image_webp : images/solutions/open-source/webkit.webp
       categories : ["Open Source"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      content : Customisation &amp; Enhancement of the WebKit Browser Engine.
       link : "#"
