@@ -12,15 +12,15 @@ feature:
       icon : ti-package
       type: solutions
       content : >
-        Distribution of Cyber Security Products and White Label Security Solutions
-        and Components, in partnership with Global Enterprises.
+        Distribution of Cyber Security Products, and White Label Security Solutions
+        and Components in partnership with Global Enterprises.
 
     - title : Threat Mitigation
       icon : ti-shield
       type: services
       content : >
-        Remote Browser Isolation, Endpoint Detection and Remediation, Web Application Firewalls,
-        Mobile Device Management, Mobile Application Management.
+        Remote Browser Isolation, PIM, EDR, WAF, MDM, MAM, VPN, SSO, MFA/2FA,
+        Vulnerability Assessment of Enterprise Assets - SSL/TLS scanner, Firewall Analyser.
 
     - title : Microservices
       icon : ti-layout-grid4
@@ -62,4 +62,4 @@ feature:
       type: services
       content : >
         Chromium and WebKit browser engines customised and applied to multiple domains
-        including cyber security, web performance optimisation and so on.
+        including Cyber Security, Web Performance Optimisation.
