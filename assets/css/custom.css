@@ -40,12 +40,12 @@ pre {
 ::-moz-selection {
   /* Code for Firefox */
   color: #fff;
-  background: #def2f4;
+  background: #15212f;
 }
 
 ::selection {
   color: #fff;
-  background: #def2f4;
+  background: #15212f;
 }
 
 hr {
@@ -697,7 +697,7 @@ a:hover {
 
 .call-to-action:before {
   content: '';
-  background: rgba(21, 33, 47, 0.75);
+  background: rgba(21, 33, 47, 0.5);
   position: absolute;
   top: 0;
   right: 0;
@@ -707,25 +707,25 @@ a:hover {
 
 .call-to-action h2 {
   font-weight: 400;
-  color: #def2f4;
+  color: #fff;
 }
 
 .call-to-action p {
-  color: #def2f4;
+  color: #fff;
   font-size: 16px;
   width: 80%;
   margin: 0 auto;
 }
 
 .call-to-action .btn-transparent {
-  border-color: #def2f4;
-  color: #def2f4;
+  border-color: #fff;
+  color: #fff;
   margin-top: 20px;
 }
 
 .call-to-action .btn-transparent:hover,
 .call-to-action .btn-transparent:focus {
-  color: #def2f4;
+  color: #fff;
 }
 
 .contact-us {
@@ -1090,7 +1090,7 @@ a:hover {
 }
 
 .client-info {
-  color: #def2f4;
+  color: #fff;
   margin: 0 auto;
   width: 45%;
 }
@@ -1102,6 +1102,7 @@ a:hover {
 }
 
 .client-comment p {
+  color: #fff;
   font-size: 18px;
   margin: 15px 0 0;
 }
@@ -1118,7 +1119,7 @@ a:hover {
 }
 
 .client-meta h3 {
-  color: #def2f4;
+  color: #fff;
   margin: 15px 0 5px .0;
 }
 
