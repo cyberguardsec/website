@@ -45,6 +45,7 @@
 				data-groups="[{{range $index, $element:= .categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
 				<div class="solutions-block mb-4">
 					<img class="img-fluid" src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
+					<h5 class="name">{{ .name | markdownify }}</h3>
 					<div class="caption">
 						<a class="link-icon" data-effect="mfp-with-zoom" href="{{ .link | safeURL }}">
 							<i class="ti-arrow-top-right"></i>

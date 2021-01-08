@@ -19,7 +19,7 @@
 		<div class="row">
 			<div class="skills-list col-xs-12 text-center">
 				{{ range $index, $element:= .skills_item }}
-				<img class="skills-item m-3 img-fluid" src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" title="{{ .name }}" alt="{{ .name }}">
+				<img class="lozad skills-item m-3 img-fluid" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" title="{{ .name }}" alt="{{ .name }}">
 				{{ end }}
 			</div>
 		</div>

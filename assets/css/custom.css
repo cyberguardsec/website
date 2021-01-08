@@ -909,6 +909,17 @@ a:hover {
   opacity: 1;
 }
 
+.solutions-block .name {
+  color: #fff;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  z-index: 9;
+  text-align: center;
+}
+
 .solutions-block:hover .caption h4 {
   top: 45%;
 }

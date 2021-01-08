@@ -35,8 +35,8 @@ services:
       type: services
       icon : ti-signal # themify icon pack : https://themify.me/themify-icons
       content : >
-        Development of solutions built with C++ and Python deployed on Class 2 and 3
-        medical devices as well as customised WiFi routers to monitor and secure
+        Solutions built with C++ and Python for multiple use cases such as
+        Class 2 and 3 Medical Devices, customised WiFi routers to monitor and secure
         Smart Home systems.
 
     - name : AI/ML
