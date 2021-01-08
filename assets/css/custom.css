@@ -866,7 +866,7 @@ a:hover {
 
 .solutions-filter .btn {
   outline: 0;
-  border: 1px solid rgba(21, 33, 47, 0.1);
+  border: 1px solid rgba(21, 33, 47, 0.2);
   background: transparent;
   display: inline-block;
   font-size: 16px;
@@ -877,7 +877,8 @@ a:hover {
 }
 
 .solutions-filter .btn.active {
-  border-color: #15212f;
+  background-color: #15212f;
+  color: #fff;
 }
 
 .solutions-block {
