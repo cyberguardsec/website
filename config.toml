@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "https://cyberguardsec.com"
-title = "Cyber Security Solutions | Services | Support | DevSecOps - Cyberguard"
+title = "Cyber Security - Solutions | Services | Support | DevSecOps - Cyberguard"
 theme = "meghna"
 # post pagination
 paginate = "6"
