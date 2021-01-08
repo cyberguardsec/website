@@ -4,29 +4,29 @@ solutions:
   title : Our Solutions
   solutions_item :
     - name : Threat Mitigation
-      image : images/solutions/solutions-4.jpg
-      image_webp : images/solutions/solutions-4.webp
+      image : images/solutions/solutions/threat.png
+      image_webp : images/solutions/solutions/threat.webp
       categories : ["Solutions"]
       content : Malware, Ransomware, Phishing (URL filtering &amp; Malicious Email Links).
       link : "#"
 
     - name : Data and IP Protection
-      image : images/solutions/solutions-5.jpg
-      image_webp : images/solutions/solutions-5.webp
+      image : images/solutions/solutions/protection.png
+      image_webp : images/solutions/solutions/protection.webp
       categories : ["Solutions"]
       content : Fine-grained Data Access Control for OUs, Groups and Individuals.
       link : "#"
 
     - name : Compliances &amp; Regulations
-      image : images/solutions/solutions-5.jpg
-      image_webp : images/solutions/solutions-5.webp
+      image : images/solutions/solutions/compliances.png
+      image_webp : images/solutions/solutions/compliances.webp
       categories : ["Solutions"]
       content : Stay one step ahead in adhering to Security Compliances.
       link : "#"
 
     - name : Work From Home
-      image : images/solutions/solutions-5.jpg
-      image_webp : images/solutions/solutions-5.webp
+      image : images/solutions/solutions/wfh.png
+      image_webp : images/solutions/solutions/wfh.webp
       categories : ["Solutions"]
       content : Securely Work from Anywhere and at Anytime.
       link : "#"
