@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "https://cyberguardsec.com"
-title = "Cyber Security - Solutions | Services | Support | DevSecOps - Cyberguard"
+title = "Cyberguard - Cyber Security | Solutions | Services | Support | DevOps | DevSecOps"
 theme = "meghna"
 # post pagination
 paginate = "6"
@@ -71,7 +71,7 @@ weight = 5
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "Cyberguard, a software company building next-generation Cyber Security Solutions, Support and Maintenance Services, and DevOps and DevSecOps Services. We also develop advanced, scalable and robust full stack web applications, and native and hybrid mobile applications for Android and iOS."
+description = "Cyberguard, a software company building next-generation Cyber Security Solutions, Software Consultancy, Support and Maintenance Services, Open Source Software, and DevOps and DevSecOps Services. We also develop advanced, scalable and robust full stack web applications, and native and hybrid mobile applications for Android and iOS."
 author = "Cyberguard Private Limited"
 # Google Analytics
 google_analytics_id = "" # Your ID
