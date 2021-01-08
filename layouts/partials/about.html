@@ -20,9 +20,9 @@
 			{{"<!-- About item -->" | safeHTML}}
 			<div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms">
 				<div class="block {{ .type }}">
-					<div class="icon-box">
+					<a href="{{ .link }}" class="icon-box page-scroll">
 						{{with .icon}}<i class="{{ . }}"></i>{{ end }}
-					</div>
+					</a>
 					{{"<!-- Express About Yourself -->" | safeHTML}}
 					<div class="content text-center">
 						<h3>{{ .title }}</h3>

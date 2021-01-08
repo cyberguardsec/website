@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "https://cyberguardsec.com"
-title = "Cyberguard"
+title = "Cyberguard - Cyber Security | Solutions | Services | Support | DevOps | DevSecOps"
 theme = "meghna"
 # post pagination
 paginate = "6"
@@ -40,48 +40,38 @@ link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
 
-################### English Navigation ########################
-[[Languages.en.menu.main]]
-name = "About"
-pre = "#"
-url = "about"
+############################# Navigation ##################################
+[[menu.main]]
+name = "about"
+URL = "about"
 weight = 1
 
-[[Languages.en.menu.main]]
-name = "services"
-pre = "#"
-url = "services"
+[[menu.main]]
+name = "solutions"
+URL = "solutions"
 weight = 2
 
-[[Languages.en.menu.main]]
-name = "portfolio"
-pre = "#"
-url = "portfolio"
+[[menu.main]]
+name = "services"
+URL = "services"
 weight = 3
 
-[[Languages.en.menu.main]]
-name = "team"
-pre = "#"
-url = "team"
-weight = 4
+# // TODO(sameet): enable later when implemented
+# [[menu.main]]
+# name = "blog"
+# URL = "blog"
+# weight = 4
 
-[[Languages.en.menu.main]]
-name = "blog"
-pre = "#"
-url = "blog"
-weight = 6
-
-[[Languages.en.menu.main]]
+[[menu.main]]
 name = "contact"
-pre = "#"
-url = "contact"
-weight = 7
+URL = "contact"
+weight = 5
 
 ############################# Default Parameters ##########################
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "Cyberguard Cyber Security Solutions Services DevSecOps"
+description = "Cyberguard, a software company building next-generation Cyber Security Solutions, Software Consultancy, Support and Maintenance Services, Open Source Software, and DevOps and DevSecOps Services. We also develop advanced, scalable and robust full stack web applications, and native and hybrid mobile applications for Android and iOS."
 author = "Cyberguard Private Limited"
 # Google Analytics
 google_analytics_id = "" # Your ID
@@ -90,13 +80,8 @@ post_share = true
 
 # preloader
 [params.preloader]
-enable = false
+enable = true
 preloader = "images/logo.png"
-
-# cookies
-[params.cookies]
-enable = false
-expire_days = 2
 
 # google map
 [params.map]
@@ -108,29 +93,24 @@ map_marker = "images/marker.png"
 
 ############################# social icons ##########################
 [[params.social]]
-icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+link = "https://www.linkedin.com/company/cyberguard-pvt-ltd/"
 
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://twitter.com/CyberguardHQ"
 
 [[params.social]]
-icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
+link = "https://www.instagram.com/cyberguardhq/"
 
 [[params.social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+link = "https://www.facebook.com/cyberguardHQ"
 
 [[params.social]]
-icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
+icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
+link = "https://github.com/cyberguardsec"
 
 ################################ English Language ########################
 [Languages.en]
@@ -139,4 +119,3 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 home = "Home"
-copyright = "Copyright &copy; 2020 Cyberguard Private Limited"

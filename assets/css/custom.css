@@ -40,12 +40,12 @@ pre {
 ::-moz-selection {
   /* Code for Firefox */
   color: #fff;
-  background: #def2f4;
+  background: #15212f;
 }
 
 ::selection {
   color: #fff;
-  background: #def2f4;
+  background: #15212f;
 }
 
 hr {
@@ -92,13 +92,21 @@ a:hover {
 .btn {
   background-color: transparent;
   color: #fff;
+  cursor: pointer;
   padding: 10px 30px;
   border-radius: 0;
   transition: all .3s ease-in 0s;
 }
 
+.btn.focus,
 .btn:focus {
-  color: #ddd;
+  box-shadow: none;
+}
+
+.btn.active:focus,
+.btn:active:focus,
+.btn:focus {
+  outline: 0;
 }
 
 .btn-transparent {
@@ -147,14 +155,8 @@ a:hover {
   text-transform: uppercase;
 }
 
-.btn.active:focus,
-.btn:active:focus,
-.btn:focus {
-  outline: 0;
-}
-
 .bg-one {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .bg-dark {
@@ -174,15 +176,6 @@ a:hover {
 
 .inline-block {
   display: inline-block;
-}
-
-.btn {
-  cursor: auto;
-}
-
-.btn.focus,
-.btn:focus {
-  box-shadow: none;
 }
 
 figure {
@@ -211,17 +204,20 @@ a:hover {
 
 .btn-main {
   background: #def2f4;
-  color: #fff;
+  color: #15212f;
   display: inline-block;
   font-size: 14px;
+  font-weight: 700;
   letter-spacing: 1px;
   padding: 10px 35px;
   text-transform: uppercase;
 }
 
+.btn-main:focus,
 .btn-main:hover {
-  background: #2c9091;
-  color: #fff;
+  background: #15212f;
+  border: 1px solid #def2f4;
+  color: #def2f4;
 }
 
 .mt-20 {
@@ -235,6 +231,14 @@ a:hover {
 
 .section-dark {
   color: #def2f4;
+}
+
+.section-dark .border-meghna {
+  border-top-color: rgba(222, 242, 244, 0.7);
+}
+
+.section-dark .border-meghna:before {
+  background-color: #def2f4;
 }
 
 .section-dark h1,
@@ -266,18 +270,8 @@ a:hover {
   padding: 50px 0;
 }
 
-.btn:focus {
-  color: #ddd;
-}
-
 #home {
   position: relative;
-}
-
-.btn.active:focus,
-.btn:active:focus,
-.btn:focus {
-  outline: 0;
 }
 
 .parallax-section {
@@ -293,7 +287,7 @@ a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #2c2f36;
+  background-color: #def2f4;
   z-index: 9999;
   display: flex;
   align-items: center;
@@ -416,14 +410,54 @@ a:hover {
   background-color: #def2f4;
   width: 100%;
   margin-bottom: 0;
+  transition: all 0.3s ease-in-out;
 }
 
-.navbar-dark .navbar-nav .nav-link,
-.navbar-dark .navbar-nav .active>.nav-link,
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link.show,
-.navbar-dark .navbar-nav .show>.nav-link {
+.navigation.scroll-top {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.navigation.scroll-top .navbar-light .navbar-nav a.nav-link {
+  color: #fff;
+}
+
+.navigation.scroll-top .navbar-light .navbar-nav .active>.nav-link,
+.navigation.scroll-top .navbar-light .navbar-nav .nav-link.active,
+.navigation.scroll-top .navbar-light .navbar-nav .nav-link.show,
+.navigation.scroll-top .navbar-light .navbar-nav .show>.nav-link,
+.navigation.scroll-top .navbar-light .navbar-nav a.nav-link:hover {
+  color: #fff;
+  font-weight: 700;
+}
+
+.navigation.scroll-top .navbar-light .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.navigation.scroll-top .navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+.navbar-light .navbar-nav a.nav-link {
   color: #15212f;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav a.nav-link:hover {
+  color: #15212f;
+  font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  text-decoration: underline;
+}
+
+.navbar-brand {
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
 }
 
 .navbar-toggler:focus {
@@ -546,7 +580,7 @@ a:hover {
 .about .block {
   color: #fff;
   padding: 30px;
-  border-bottom: 2px solid transparent;
+  border-bottom: 3px solid transparent;
   transition: .5s all;
   margin-bottom: 20px;
 }
@@ -568,7 +602,7 @@ a:hover {
 }
 
 .about .block:hover {
-  border-bottom: 2px solid #15212f;
+  border-bottom: 3px solid #15212f;
 }
 
 .about .block:hover .icon-box {
@@ -577,6 +611,7 @@ a:hover {
 }
 
 .about .block .icon-box {
+  display: block;
   position: relative;
   width: 160px;
   height: 92.38px;
@@ -643,6 +678,18 @@ a:hover {
   color: #def2f4;
 }
 
+.about-2 .content-block .media i.solutions {
+  color: #6a9913;
+}
+
+.about-2 .content-block .media i.services {
+  color: #235593;
+}
+
+.about-2 .content-block .media i.devsecops {
+  color: #be3534;
+}
+
 .about-2 .content-block .media h4 {
   font-size: 16px;
   font-weight: 600;
@@ -652,24 +699,37 @@ a:hover {
   background-attachment: fixed;
 }
 
+.call-to-action:before {
+  content: '';
+  background: rgba(21, 33, 47, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 .call-to-action h2 {
-  font-weight: 700;
-  color: #444;
+  font-weight: 400;
+  color: #fff;
 }
 
 .call-to-action p {
+  color: #fff;
   font-size: 16px;
-  color: #666;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .call-to-action .btn-transparent {
-  color: #15212f;
+  border-color: #fff;
+  color: #fff;
   margin-top: 20px;
 }
 
 .call-to-action .btn-transparent:hover,
 .call-to-action .btn-transparent:focus {
-  color: #def2f4;
+  color: #fff;
 }
 
 .contact-us {
@@ -686,12 +746,24 @@ a:hover {
   margin-bottom: 60px;
 }
 
+.contact-message {
+  display: none;
+}
+
+.contact-message.success {
+  display: block;
+}
+
+.contact-message.error {
+  display: block;
+}
+
 .form-meghna .form-control {
   background-color: transparent;
   border-radius: 0;
   padding: 5px 10px;
-  color: #ddd;
-  border: 1px solid rgba(236, 239, 241, 0.07);
+  color: #15212f;
+  border: 1px solid rgba(21, 33, 47, 0.25);
 }
 
 .form-meghna .form-control:focus {
@@ -701,24 +773,24 @@ a:hover {
 
 .form-meghna input:hover,
 .form-meghna textarea:hover {
-  border-color: #def2f4;
+  border-color: rgba(21, 33, 47, 0.7);
 }
 
 #contact-submit {
-  border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #def2f4;
+  background: rgba(21, 33, 47, 0.8);
+  color: #def2f4;
   padding: 12px 0;
   width: 100%;
   margin: 0;
 }
 
 #contact-submit:hover {
-  border-color: #2c9091;
-  background-color: #2c9091;
+  background-color: #15212f;
+  border: 1px solid transparent;
 }
 
 .form-meghna ::placeholder {
-  color: #ddd !important;
+  color: #15212f !important;
 }
 
 .google-map #map-canvas {
@@ -789,16 +861,16 @@ a:hover {
 }
 
 /*=================================================================
-  Portfolio section
+  Solutions section
 ==================================================================*/
-.portfolio-filter {
+.solutions-filter {
   margin-bottom: 40px;
   text-align: center;
 }
 
-.portfolio-filter .btn {
+.solutions-filter .btn {
   outline: 0;
-  border: 1px solid rgba(236, 239, 241, 0.07);
+  border: 1px solid rgba(21, 33, 47, 0.2);
   background: transparent;
   display: inline-block;
   font-size: 16px;
@@ -808,17 +880,22 @@ a:hover {
   transition: .3s all;
 }
 
-.portfolio-filter .btn.active {
-  border-color: #def2f4;
+.solutions-filter .btn.active {
+  background-color: #15212f;
+  color: #fff;
 }
 
-.portfolio-block {
+.solutions-block {
+  background: #15212f;
+  border-radius: 10%;
+  box-shadow: 7px 7px 5px #6a9913;
   position: relative;
 }
 
-.portfolio-block:before {
+.solutions-block:before {
   transition: all 0.3s ease-in-out;
-  background: white;
+  background: #fff;
+  border-radius: 10%;
   opacity: 0;
   top: 20px;
   right: 20px;
@@ -828,25 +905,36 @@ a:hover {
   content: '';
 }
 
-.portfolio-block img {
+.solutions-block img {
   width: 100%;
   height: auto;
 }
 
-.portfolio-block:hover:before {
+.solutions-block:hover:before {
   opacity: 1;
 }
 
-.portfolio-block:hover .caption h4 {
+.solutions-block .name {
+  color: #fff;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  z-index: 9;
+  text-align: center;
+}
+
+.solutions-block:hover .caption h4 {
   top: 45%;
 }
 
-.portfolio-block:hover .caption {
+.solutions-block:hover .caption {
   opacity: 1;
   top: 55%;
 }
 
-.portfolio-block .caption {
+.solutions-block .caption {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -858,17 +946,17 @@ a:hover {
   text-align: center;
 }
 
-.portfolio-block .caption h4 {
+.solutions-block .caption h4 {
   font-size: 16px;
   font-weight: 600;
 }
 
-.portfolio-block .caption h4 a {
-  color: #555;
+.solutions-block .caption h4 a {
+  color: #15212f;
 }
 
-.portfolio-block .caption .search-icon {
-  background: #def2f4;
+.solutions-block .caption .link-icon {
+  background: #6a9913;
   width: 50px;
   height: 50px;
   color: #fff;
@@ -877,83 +965,45 @@ a:hover {
   border-radius: 30px;
 }
 
-.portfolio-block .caption .search-icon i {
+.solutions-block .caption .link-icon i {
   line-height: 50px;
 }
 
 /*=================================================================
   Services section
 ==================================================================*/
-.service-block {
+.services-block {
   padding: 60px 20px;
   border-left: 1px solid rgba(236, 239, 241, 0.07);
   border-top: 1px solid rgba(236, 239, 241, 0.07);
+  border-radius: 10%;
   margin-bottom: 40px;
-  box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
 }
 
-.service-block .service-icon {
+.services-block.services {
+  box-shadow: 7px 7px 5px rgba(35, 85, 147, 0.5);
+}
+
+.services-block.devsecops {
+  box-shadow: 7px 7px 5px rgba(190, 53, 52, 0.5);
+}
+
+.services-block .services-icon {
   margin-bottom: 10px;
   font-size: 50px;
 }
 
 /*=================================================================
-  Services section 2
+  Our Skills
 ==================================================================*/
-.service-2 .service-item {
-  border: 1px solid #eee;
-  margin-bottom: 30px;
-  padding: 50px 20px;
-  transition: all 0.3s ease 0s;
+.skills-item {
+  transition: all 0.3s ease-in-out;
+  height: 60px;
+  width: auto;
 }
 
-.service-2 .service-item:hover {
-  box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
-}
-
-.service-2 .service-item:hover i {
-  background: #fff;
-  color: #def2f4;
-}
-
-.service-2 .service-item i {
-  font-size: 30px;
-  display: inline-block;
-  background: #def2f4 none repeat scroll 0 0;
-  border-radius: 30px;
-  box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
-  color: #fff;
-  height: 55px;
-  line-height: 55px;
-  margin-bottom: 20px;
-  width: 55px;
-  transition: all 0.3s ease 0s;
-}
-
-/*=================================================================
-  Our skills
-==================================================================*/
-.skill-bar p {
-  font-size: 18px;
-  margin-bottom: 0;
-}
-
-.skill-bar p span {
-  font-style: italic;
-  font-size: 30px;
-  color: rgba(187, 187, 187, 0.34);
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.skill-bar .progress {
-  height: 6px;
-  border-radius: 0;
-}
-
-.skill-bar .progress .progress-bar {
-  background: #def2f4;
+.skills-item:hover {
+  transform: scale(1.5);
 }
 
 /*=================================================================
@@ -1052,10 +1102,11 @@ a:hover {
   Testimonial section
 ==================================================================*/
 .testimonial:before {
-  background: rgba(42, 48, 55, 0.7);
+  background: rgba(42, 48, 55, 0.75);
 }
 
 .client-info {
+  color: #fff;
   margin: 0 auto;
   width: 45%;
 }
@@ -1067,8 +1118,9 @@ a:hover {
 }
 
 .client-comment p {
-  color: #afbac4;
+  color: #fff;
   font-size: 18px;
+  margin: 15px 0 0;
 }
 
 .client-thumb img {
@@ -1083,11 +1135,12 @@ a:hover {
 }
 
 .client-meta h3 {
+  color: #fff;
   margin: 15px 0 5px .0;
 }
 
 .client-meta span {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .owl-pagination,
@@ -1159,7 +1212,7 @@ a:hover {
 }
 
 .post-block {
-  background-color: #15212f;
+  background-color: #292f36;
   margin-bottom: 10px;
 }
 
@@ -1172,6 +1225,16 @@ a:hover {
   font-size: 20px;
   line-height: 1.5;
   text-transform: capitalize;
+}
+
+.post-block .content .btn-transparent {
+  border-color: #def2f4;
+}
+
+.post-block .content .btn-transparent:hover,
+.post-block .content .btn-transparent:focus {
+  background-color: #def2f4;
+  color: #15212f;
 }
 
 .note .media-wrapper {
@@ -1447,8 +1510,12 @@ input#e-mail,
 /*=================================================================
   Footer section
 ==================================================================*/
+.footer {
+  background-color: #def2f4;
+}
+
 .social-icon {
-  padding: 60px 0 35px;
+  padding: 20px 0 0;
 }
 
 .social-icon ul {
@@ -1460,16 +1527,17 @@ input#e-mail,
 }
 
 .social-icon ul li a {
-  background-color: #26292e;
+  background-color: #15212f;
   border: 1px solid transparent;
+  border-radius: 50%;
   display: block;
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
   transition: all 400ms ease-out 0s;
 }
 
 .social-icon ul li a:hover {
-  background: #def2f4;
+  background: #15212f;
 }
 
 .social-icon ul li a:hover i {
@@ -1478,10 +1546,10 @@ input#e-mail,
 }
 
 .social-icon ul li a i {
-  color: #55606a;
+  color: #fff;
   display: inline-block;
-  font-size: 32px;
-  line-height: 70px;
+  font-size: 25px;
+  line-height: 50px;
   margin: 0;
   opacity: 0.3;
   transition: all 400ms ease-out 0s;
@@ -1489,7 +1557,7 @@ input#e-mail,
 
 .copyright {
   padding: 20px 0;
-  color: #fff;
+  color: #15212f;
 }
 
 .copyright img {
@@ -1500,46 +1568,10 @@ input#e-mail,
   margin-top: 10px;
 }
 
-#scrollUp {
-  border: 1px solid #4e595f;
-  bottom: 15px;
-  color: #fff;
-  display: none;
-  padding: 8px 12px;
-  position: fixed;
-  right: 20px;
-  z-index: 600;
-}
-
-#scrollUp:hover {
-  background-color: #def2f4;
-  border: 1px solid #def2f4;
-}
-
-/*=================================================================
-	Twitter Feed
-==================================================================*/
-
-.twitter-bird span {
-  border: 2px solid #6cb670;
-  border-radius: 50px;
-  color: #6cb670;
-  display: inline-block;
-  margin-bottom: 50px;
-  height: 90px;
-  width: 90px;
-}
-
-.twitter-bird span i {
-  line-height: 90px;
-}
-
-.tweet {
-  margin-bottom: 10px;
-}
-
-.tweet a {
-  color: #6cb670;
+.disclaimer {
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
 }
 
 /*=================================================================
@@ -2188,14 +2220,14 @@ figcaption {
   border: 1px solid #26292e;
   text-align: center;
   margin-right: 6px;
-  font-weight: 700;
+  font-weight: 400;
   color: #55606a;
 }
 
 .pagination .page-item .page-link:hover {
   background: #def2f4;
   border-color: #def2f4;
-  color: #fff
+  color: #15212f
 }
 
 .pagination .page-item:first-child .page-link,
@@ -2205,13 +2237,13 @@ figcaption {
 
 .pagination .page-item.active .page-link {
   background: #def2f4;
-  color: #fff;
   border-color: #def2f4;
+  color: #15212f;
 }
 
 #select-language {
-  background: #ffffff;
-  color: #ffffff;
+  background: #fff;
+  color: #fff;
   border: 0;
 }
 

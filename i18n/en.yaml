@@ -2,8 +2,8 @@
   translation: Latest Post
 - id: readMore
   translation: Read more
-- id: viewAllPost
-  translation: View All Post
+- id: viewAllPosts
+  translation: View All
 - id: share
   translation: Share
 - id: aboutAuthor
@@ -15,16 +15,12 @@
 - id: about
   translation: About Us
 - id: services
-  translation: Service
-- id: portfolio
-  translation: Portfolio
+  translation: Services
+- id: solutions
+  translation: Solutions
 - id: team
   translation: Team
-- id: pricing
-  translation: Pricing
 - id: blog
   translation: Blog
 - id: contact
   translation: Contact
-- id: themefisher
-  translation: Themefisher

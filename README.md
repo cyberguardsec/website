@@ -25,3 +25,7 @@ Open shell as admin and install Chocolatey and then Hugo
 ### Development and local testing
 * `cd cyberguard/website`
 * `hugo server -D`
+
+### Instructions and Notes
+* Technology images in the `Our Skills` section have to be in PNG format and of height 90px.
+
