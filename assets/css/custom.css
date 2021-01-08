@@ -451,6 +451,10 @@ a:hover {
   font-weight: 700;
 }
 
+.navbar-light .navbar-nav .nav-link.active {
+  text-decoration: underline;
+}
+
 .navbar-brand {
   transition: all 0.3s ease-in-out;
   opacity: 0;
