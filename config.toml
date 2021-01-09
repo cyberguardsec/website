@@ -74,7 +74,7 @@ logo = "images/logo.png"
 description = "Cyberguard, a software company building next-generation Cyber Security Solutions, Software Consultancy, Support and Maintenance Services, Open Source Software, and DevOps and DevSecOps Services. We also develop advanced, scalable and robust full stack web applications, and native and hybrid mobile applications for Android and iOS."
 author = "Cyberguard Private Limited"
 # Google Analytics
-google_analytics_id = "" # Your ID
+google_analytics_id = "G-9SC5ELFHQR" # Your ID
 # post share
 post_share = true
 
