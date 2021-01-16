@@ -4,14 +4,11 @@ testimonial:
   bg_image : images/backgrounds/bg-testimonial.jpg
   bg_image_webp : images/backgrounds/bg-testimonial.webp
   testimonial_item :
-    - name : Jonathon Andrew
-      image : images/client/client-1.jpg
-      image_webp : images/client/client-1.webp
-      designation : CEO, ABC Corp
-      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
-
-    - name : Mark Dinn
-      image : images/client/client-2.jpg
-      image_webp : images/client/client-2.webp
-      designation : CTO, XYZ Ltd
-      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    - name : Ronen Keinan 
+      image : images/client/crusoe-ronen.jpg
+      image_webp : images/client/crusoe-ronen.webp
+      designation : CEO, Crusoe Security
+      content : >
+        I am deeply impressed by the professionalism, quality of service and dedication of
+        Cyberguard. The Cybergurard team always rose to the occasion and I consider them to
+        be true partners. I look forward to continuing our journey together.
