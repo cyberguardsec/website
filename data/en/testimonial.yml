@@ -5,13 +5,10 @@ testimonial:
   bg_image_webp : images/backgrounds/bg-testimonial.webp
   testimonial_item :
     - name : Ronen Keinan 
-      image : images/client/Ronen-Crusoe.jpg
-      image_webp : images/client/Ronen-Crusoe.webp
+      image : images/client/crusoe-ronen.jpg
+      image_webp : images/client/crusoe-ronen.webp
       designation : CEO, Crusoe Security
-      content : I am deeply impressed by the professionalism, quality of service and dedication of Cyberguard. The Cybergurard team always rose to the occasion and I consider them to be true partners. I look forward to continuing our journey together.
-
-    - name : Ronen Keinan 
-      image : images/client/Ronen-Crusoe.jpg
-      image_webp : images/client/Ronen-Crusoe.webp
-      designation : CEO, Crusoe Security
-      content : I am deeply impressed by the professionalism, quality of service and dedication of Cyberguard. The Cybergurard team always rose to the occasion and I consider them to be true partners. I look forward to continuing our journey together.
+      content : >
+        I am deeply impressed by the professionalism, quality of service and dedication of
+        Cyberguard. The Cybergurard team always rose to the occasion and I consider them to
+        be true partners. I look forward to continuing our journey together.
