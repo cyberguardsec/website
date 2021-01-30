@@ -18,14 +18,14 @@
 
 						{{"<!-- client photo -->" | safeHTML}}
 						<div class="client-thumb">
-							<img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
+							<img class="img-fluid" src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
 						</div>
 
 						{{"<!-- client info -->" | safeHTML}}
 						<div class="client-info">
 							<div class="client-meta">
-								<h3>{{ .name }}</h3>
-								<span>{{ .designation }}</span>
+								<h4>{{ .name }}</h4>
+								<span>{{ .details }}</span>
 							</div>
 							<div class="client-comment">
 								<p>{{ .content | markdownify }}</p>

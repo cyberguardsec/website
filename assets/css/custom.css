@@ -1124,9 +1124,9 @@ a:hover {
 }
 
 .client-thumb img {
-  border-radius: 50%;
+  border-radius: 0;
   margin: 0 auto;
-  max-width: 115px;
+  max-width: 175px;
   width: 100%;
 }
 
@@ -1134,7 +1134,7 @@ a:hover {
   margin: 0 0 10px;
 }
 
-.client-meta h3 {
+.client-meta h4 {
   color: #fff;
   margin: 15px 0 5px .0;
 }
