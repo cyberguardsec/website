@@ -20,11 +20,15 @@ function updateNavbar() {
 }
 
 $(document).ready(function () {
-  // Change menu styling if not on top, on load and then on scroll
-  updateNavbar();
-  $(window).scroll(function() {
+  // For the home page (or any page that has the hero area an image)
+  // we change the navbar style so it blends into the background
+  if ($(".hero-area").length > 0) {
+    // Change menu styling if not on top, on load and then on scroll
     updateNavbar();
-  });
+    $(window).scroll(function() {
+      updateNavbar();
+    });
+  }
 
   // Contact form handling
   $("#contact-form").on("submit", function( event) {

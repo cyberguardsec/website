@@ -457,7 +457,7 @@ a:hover {
 
 .navbar-brand {
   transition: all 0.3s ease-in-out;
-  opacity: 0;
+  opacity: 1;
 }
 
 .navbar-toggler:focus {
@@ -520,7 +520,7 @@ a:hover {
 
 .hero-area .block p {
   color: #fff;
-  font-size: 20px;
+  font-size: 28px;
   width: 70%;
   margin: 0 auto;
 }
@@ -895,7 +895,7 @@ a:hover {
 .solutions-block:before {
   transition: all 0.3s ease-in-out;
   background: #fff;
-  border-radius: 10%;
+  border-radius: 6%;
   opacity: 0;
   top: 20px;
   right: 20px;
@@ -1124,9 +1124,9 @@ a:hover {
 }
 
 .client-thumb img {
-  border-radius: 50%;
+  border-radius: 0;
   margin: 0 auto;
-  max-width: 115px;
+  max-width: 175px;
   width: 100%;
 }
 
@@ -1134,7 +1134,7 @@ a:hover {
   margin: 0 0 10px;
 }
 
-.client-meta h3 {
+.client-meta h4 {
   color: #fff;
   margin: 15px 0 5px .0;
 }
@@ -2253,6 +2253,10 @@ figcaption {
   display: block;
 }
 
+.simple-icon:hover {
+  color: #15212f;
+}
+
 /* cookie */
 .cookie-box {
   position: fixed;
@@ -2268,4 +2272,11 @@ figcaption {
 
 .cookie-box-hide {
   display: none;
+}
+
+/*=================================================================
+  404 Page
+==================================================================*/
+.content-404 {
+  padding: 180px 0 150px;
 }
