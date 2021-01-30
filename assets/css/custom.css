@@ -2253,6 +2253,10 @@ figcaption {
   display: block;
 }
 
+.simple-icon:hover {
+  color: #15212f;
+}
+
 /* cookie */
 .cookie-box {
   position: fixed;
