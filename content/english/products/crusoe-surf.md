@@ -1,5 +1,5 @@
 ---
-title: "CRUSOE SURF"
+title: "CRUSOE SURF (RBI)"
 subtitle : "The Freedom of Isolation"
 image: images/solutions/products/crusoe-surf/crusoe-surf.png
 cta_item :
