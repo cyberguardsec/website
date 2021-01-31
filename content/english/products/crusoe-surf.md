@@ -2,7 +2,6 @@
 title: "CRUSOE SURF"
 subtitle : "The Freedom of Isolation"
 image: images/solutions/products/crusoe-surf/crusoe-surf.png
-draft: true
 ---
 
 ## What is Crusoe Surf?
