@@ -17,6 +17,18 @@
       </div>
     </div>
   </div>
+
+  {{ with .Params }}
+  {{ if .cta_item }}
+  <div class="row justify-content-center mt-4">
+    {{ range .cta_item }}
+    <div class="col-lg-4">
+      <a href="{{ .link }}" class="btn">{{ .label }}</a>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ end }}
 </section>
 
 {{ end }}
