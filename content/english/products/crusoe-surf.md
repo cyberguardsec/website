@@ -54,17 +54,17 @@ Downloads, uploads, printing and additional end-user interactions are provided i
 > - Crusoe Surf has been designed from the ground up together with customer IT organizations resulting in an innovative, scalable and pragmatic offering.
 
 ## Use Cases
-1. ###### Threat Mitigation
+1. ###### **Threat Mitigation**
     * Freedom from  Malware, Ransomware, Phishing Attacks through URL filtering and protection from  malicious links in emails.
-2. ###### C-level Leadership Protection
+2. ###### **C-level Leadership Protection**
     * Enterprise management and leadership have maximum access to sensitive data and need maximum protection.
     * Crusoe Surf protects all digital footprints of the leadership team and provides security and data and IP loss protection.
-3. ###### Data and IP Protection
+3. ###### **Data and IP Protection**
     * A powerful policy management system allows granular control over individual's and group's access to sensitive data.
     * Control granularity includes allowing or disallowing browser operations including downloading. uploading, printing, copy/paste actions and so on.
-4. ###### Work From Home
+4. ###### **Work From Home**
     * Crusoe Surf being an Isolation Platform, inherently supports access to the browsing environment from anywhere and at anytime.
     * Regardless of the user's location, the pre-defined access control policies apply to every individual accessing the browsing environment ensuring data loss protection.
-5. ###### Compliances and Regulations
+5. ###### **Compliances and Regulations**
     * Data laws and related compliances are being improved and enforced regularly aroung the world.
     * Remote Browser Isolation is already a mandatory compliance in various regions and nations.
