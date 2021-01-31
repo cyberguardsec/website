@@ -772,7 +772,7 @@ a:hover {
 }
 
 #contact-submit {
-  background: rgba(21, 33, 47, 0.8);
+  background: rgba(21, 33, 47, 0.9);
   color: #def2f4;
   padding: 12px 0;
   width: 100%;
@@ -2312,14 +2312,13 @@ figcaption {
 
 .products-page .btn {
   color: #def2f4;
-  background-color: #15212f;
+  background-color: rgba(21, 33, 47, 0.9);
   padding: 12px 0;
   width: 100%;
   margin: 0;
 }
 
 .products-page .btn:hover {
-  color: #15212f;
-  background-color: transparent;
-  border: 1px solid #15212f;
+  background-color: #15212f;
+  border: 1px solid transparent;
 }
