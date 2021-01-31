@@ -6,7 +6,7 @@ html {
 
 body {
   background-color: #fff;
-  font-family: "Anaheim", sans-serif;
+  font-family: "Quattrocento Sans", sans-serif;
   color: #15212f;
   -webkit-font-smoothing: antialiased;
 }
@@ -18,12 +18,7 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  font-family: "Quattrocento Sans", sans-serif;
   color: #15212f;
-}
-
-p {
-  font-family: "Quattrocento Sans", sans-serif;
 }
 
 [scroll-behavior=smooth] {
@@ -47,6 +42,7 @@ pre {
   color: #fff;
   background: #15212f;
 }
+color: #def2f4;
 
 hr {
   border-top: 1px solid rgba(255, 255, 255, .1);
@@ -155,14 +151,6 @@ a:hover {
   text-transform: uppercase;
 }
 
-.bg-one {
-  background-color: #fff;
-}
-
-.bg-dark {
-  background: #15212f;
-}
-
 .parallax-section {
   background-attachment: fixed !important;
   background-position: center center;
@@ -226,27 +214,37 @@ a:hover {
 
 .section {
   color: #15212f;
-  padding: 70px 0;
+  padding: 100px 0 70px;
 }
 
-.section-dark {
+
+.bg-one {
+  background-color: #fff;
+}
+
+.bg-one hr {
+  border-top: 1px solid rgba(21, 33, 47, .5);
+}
+
+.bg-dark {
+  background: #15212f !important;
   color: #def2f4;
 }
 
-.section-dark .border-meghna {
+.bg-dark .border-meghna {
   border-top-color: rgba(222, 242, 244, 0.7);
 }
 
-.section-dark .border-meghna:before {
+.bg-dark .border-meghna:before {
   background-color: #def2f4;
 }
 
-.section-dark h1,
-.section-dark h2,
-.section-dark h3,
-.section-dark h4,
-.section-dark h5,
-.section-dark h6 {
+.bg-dark h1,
+.bg-dark h2,
+.bg-dark h3,
+.bg-dark h4,
+.bg-dark h5,
+.bg-dark h6 {
   color: #def2f4;
 }
 
@@ -263,11 +261,11 @@ a:hover {
 }
 
 .section-sm {
-  padding: 70px 0;
+  padding: 70px 0 50px;
 }
 
 .section-xs {
-  padding: 50px 0;
+  padding: 50px 0 30px;
 }
 
 #home {
@@ -318,14 +316,6 @@ a:hover {
   color: #fff;
 }
 
-.bg-gray {
-  background: #f9f9f9;
-}
-
-.section-bg {
-  background: #15212f;
-}
-
 .overly {
   position: relative;
 }
@@ -348,7 +338,6 @@ a:hover {
 .header-bradcrumb .active {
   color: #cfcfcf;
   font-weight: 200;
-  font-family: "Quattrocento Sans", sans-serif;
 }
 
 .header-bradcrumb a:hover {
@@ -777,7 +766,7 @@ a:hover {
 }
 
 #contact-submit {
-  background: rgba(21, 33, 47, 0.8);
+  background: rgba(21, 33, 47, 0.9);
   color: #def2f4;
   padding: 12px 0;
   width: 100%;
@@ -2279,4 +2268,51 @@ figcaption {
 ==================================================================*/
 .content-404 {
   padding: 180px 0 150px;
+}
+
+/*=================================================================
+  Products Page
+==================================================================*/
+.products-page h1 {
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.products-page h1,
+.products-page h2 {
+  margin-top: 2rem;
+}
+
+.products-page h5,
+.products-page h6 {
+  margin-top: 1rem;
+}
+
+.products-page blockquote {
+  color: #def2f4;
+  border-left: 5px solid #6a9913;
+  background-color: #15212f;
+  font-style: normal;
+}
+
+.products-page blockquote h1,
+.products-page blockquote h2,
+.products-page blockquote h3,
+.products-page blockquote h4,
+.products-page blockquote h5,
+.products-page blockquote h6 {
+  color: #def2f4;
+}
+
+.products-page .btn {
+  color: #def2f4;
+  background-color: rgba(21, 33, 47, 0.9);
+  padding: 12px 0;
+  width: 100%;
+  margin: 0;
+}
+
+.products-page .btn:hover {
+  background-color: #15212f;
+  border: 1px solid transparent;
 }

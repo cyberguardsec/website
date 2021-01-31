@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+{{ partial "navigation.html" . }}
+
+<section class="section bg-one products-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 text-center">
+        <h1>{{ .Title }}</h1>
+        <h4>{{ .Params.Subtitle }}</h4>
+        <img class="img-fluid mb-50 lozad" data-src="{{ .Params.Image | absURL }}" alt="crusoe-surf">
+      </div>
+      <div class="col-lg-10 offset-lg-1">
+        <div class="post-single-content">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{ with .Params }}
+  {{ if .cta_item }}
+  <div class="row justify-content-center mt-4">
+    {{ range .cta_item }}
+    <div class="col-lg-4">
+      <a href="{{ .link }}" class="btn">{{ .label }}</a>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ end }}
+</section>
+
+{{ end }}
