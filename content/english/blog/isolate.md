@@ -21,7 +21,7 @@ The lab had a limited number of computers which were shared between students. He
 
 The anti-virus program was a detection and remediation solution and could have been installed on every computer in the lab, however for additional safety and better control, Eric used isolation with an air-gapped computer to achieve the result - and this worked wonderfully. He maintained a near perfect record of just a single breach in the entire year.
 
-The breach occured when the antivirus solution could not detect a virus on one of the disks which ended up infecting all the computers on the network. The lab was closed for two days after that and all the machines were formatted and set up again. This was our introduction to the zero-day attack. Since then zero-day exploits have grown in notoriety and isolation technology has also grown in sophistication as a counterpoint to it.
+The breach occurred when the antivirus solution could not detect a virus on one of the disks which ended up infecting all the computers on the network. The lab was closed for two days after that and all the machines were formatted and set up again. This was our introduction to the zero-day attack. Since then zero-day exploits have grown in notoriety and isolation technology has also grown in sophistication as a counterpoint to it.
 
 > Isolation technology is mainly aimed at mitigating large attack surfaces.
 
@@ -29,4 +29,4 @@ Any machines or software that accesses the Internet are isolated in the DMZ with
 
 Another large attack surface is the browser. All or most endpoints in an organisation have access to the Web through browsers installed on local machines and nearly 80% of the attacks originate from malicious websites loaded into these browsers. Remote Browser Isolation (RBI) tools mitigate such attacks by moving the browser into ephemeral instances on the DMZ, with the endpoints within the local network completely protected from malware.
 
-RBI solutions have evolved over the years with increasingly superior security architecture and a near native browsing experience and has been a mandatory compliance in several countries and regions around the world, and with distributed workplaces becoming the norm, isolation, monitoring and access control solutions will become the core tools in a CISO's arsenal.
+RBI solutions have evolved over the years with increasingly superior security architecture and a near native browsing experience and has been a mandatory compliance in several countries and regions around the world. With distributed workplaces becoming the norm, isolation, monitoring and access control solutions will become the core tools in a CISO's arsenal.
