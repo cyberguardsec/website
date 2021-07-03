@@ -8,7 +8,7 @@ image: images/blog/isolate.jpg
 draft: true
 ---
 
-Human instinct toward security is to isolate. Proven criminals are imprisoned away from society, prized possessions are isolated away into secure vaults. The degree of isolation and security of the vault is directly proportional to the value of the asset and the intensity of the threat to it.
+Human instinct toward security is to isolate. Malicious actors are imprisoned away from society, prized possessions are isolated away into secure vaults. The degree of isolation and security of the vault is directly proportional to the value of the asset and the intensity of the threat to it.
 
 Museums display expensive art however the visitors have to maintain a distance and the asset is constantly monitored. The more expensive the art, the more sophisticated the surveillance technology.
 
