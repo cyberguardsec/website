@@ -230,6 +230,11 @@ a:hover {
   color: #def2f4;
 }
 
+.bg-dark ::selection {
+  color: #15212f;
+  background: #fff;
+}
+
 .bg-dark .border-meghna {
   border-top-color: rgba(222, 242, 244, 0.7);
 }
