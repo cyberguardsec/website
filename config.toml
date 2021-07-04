@@ -56,11 +56,10 @@ name = "services"
 URL = "services"
 weight = 3
 
-# // TODO(sameet): enable later when implemented
-# [[menu.main]]
-# name = "blog"
-# URL = "blog"
-# weight = 4
+[[menu.main]]
+name = "blog"
+URL = "blog"
+weight = 4
 
 [[menu.main]]
 name = "contact"

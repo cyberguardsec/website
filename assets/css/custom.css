@@ -42,7 +42,6 @@ pre {
   color: #fff;
   background: #15212f;
 }
-color: #def2f4;
 
 hr {
   border-top: 1px solid rgba(255, 255, 255, .1);
@@ -229,6 +228,11 @@ a:hover {
 .bg-dark {
   background: #15212f !important;
   color: #def2f4;
+}
+
+.bg-dark ::selection {
+  color: #15212f;
+  background: #fff;
 }
 
 .bg-dark .border-meghna {
