@@ -582,11 +582,7 @@ iframe {
   border-bottom: 3px solid #15212f;
 }
 
-.about .block a {
-  color: #fff;
-  transition: all .3s ease-in 0s;
-}
-
+.about .block a,
 .about .block a:focus,
 .about .block a:hover {
   color: #fff;
@@ -1205,6 +1201,12 @@ iframe {
 
 .post-block .content {
   padding: 20px;
+}
+
+.post-block .content a,
+.post-block .content a:focus,
+.post-block .content a:hover {
+  color: #fff;
 }
 
 .post-block .content h3 {
