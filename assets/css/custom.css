@@ -52,12 +52,8 @@ figure {
 }
 
 a {
-  color: #fff;
+  color: #0d7eff;
   transition: all .3s ease-in 0s;
-}
-
-iframe {
-  border: 0;
 }
 
 a,
@@ -69,7 +65,11 @@ a:hover {
 
 a:focus,
 a:hover {
-  color: #6CB670;
+  color: #0000ff;
+}
+
+iframe {
+  border: 0;
 }
 
 .kill-margin-bottom {
@@ -169,24 +169,8 @@ figure {
   margin: 0;
 }
 
-a {
-  transition: all .2s ease-in 0s;
-}
-
 iframe {
   border: 0;
-}
-
-a,
-a:focus,
-a:hover {
-  text-decoration: none;
-  outline: 0;
-}
-
-a:focus,
-a:hover {
-  color: #def2f4;
 }
 
 .btn-main {
@@ -596,6 +580,12 @@ a:hover {
 
 .about .block:hover {
   border-bottom: 3px solid #15212f;
+}
+
+.about .block a,
+.about .block a:focus,
+.about .block a:hover {
+  color: #fff;
 }
 
 .about .block:hover .icon-box {
@@ -1211,6 +1201,12 @@ a:hover {
 
 .post-block .content {
   padding: 20px;
+}
+
+.post-block .content a,
+.post-block .content a:focus,
+.post-block .content a:hover {
+  color: #fff;
 }
 
 .post-block .content h3 {
