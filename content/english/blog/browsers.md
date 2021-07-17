@@ -2,7 +2,7 @@
 title: "Browsers"
 date: 2021-07-17T13:46:14+05:30
 author: Sameet Burde
-description : "This is meta description"
+description : "The window into the web."
 image_webp: images/blog/browsers.webp
 image: images/blog/browsers.jpg
 ---
