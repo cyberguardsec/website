@@ -17,13 +17,11 @@ The Browser is our window into the web, the first tool we start as soon as we lo
 
 Early browsers such as the very first browser also called WorldWideWeb, along with Lynx and others were text based browsers. The introduction of the `<img>` tag by the developers of Mosaic (which was later renamed to Netscape) added support for inline images to web pages. This began a rapid explosion of website development and web design grew as a practice and profession as web page aesthetics gained importance. The story of the `<img>` tag, which began with an email, is a brief but interesting one linked [here](https://thenextweb.com/news/found-the-email-thread-marc-andreessen-proposed-img-html-tag).
 
-> The power and applicability of technology is dependent on the ease of use and accessibility of the tools used to harness it. The light bulb, the car, the television - the envelope extremely complex tech and simplify it to a point where we now take these for granted. The Browser is another such tool.
+> The power and applicability of technology is dependent on the ease of use and accessibility of the tools used to harness it. The light bulb, the car, the television, these envelope extremely complex tech and simplify it to a point where we now take them for granted. The Browser is another such tool.
 
-The browser is made of a large number of components, each complex enough to potentially stand on its own as an independent tool, and it goes through a rigorous workflow to eventually display a single web page.
+The browser is made up of a large number of components, each complex enough to potentially stand on its own as an independent tool, and it goes through a rigorous workflow to eventually display a single web page.
 
 It is made up of parsers for the various formatting languages including HTML and CSS, a JavaScript engine, image, video and audio decoders and players, network communication modules, rendering libraries and so on. (I'll probably do a deeper dive into the data and rendering pipeline in a future article).
-
-At the highest level, the browser just follows the web standards verbatim. It receives an HTML page, parses it, fetches any linked inline content like CSS, JS, images etc. parses and decodes them, prepares the layout of the page as per the style rules defined in the CSS, and renders the page to screen. It doesn't end here though and very rarely are web pages purely static. Browsers support JavaScript, and web pages embed JS code which when executed, interacts with the page elements, style rules, and content to update them on the fly.
 
 A browser inherently is a platform that executes code to display content, and like any good platform it is bound to follow the instructions defined in the code as-is. This turns the browser into an attack surface for unintentional exploits through bugs in code ([XSS attacks](https://owasp.org/www-community/attacks/xss/) for example), or for malicious actors to introduce malware through web pages.
 
@@ -33,11 +31,7 @@ The [Chromium](https://www.chromium.org/) open source project powers a large num
 
 Chromium introduced a multi-process sandboxed design and had great success in minimising the attack surface by minimising the privileges of the code executed when rendering web pages.
 
-To explain briefly, Chromium runs as a multi-process application.
-- At the root is the Browser Process which has the maximum privileges to access all hardware and data resources on a machine.
-- The rendering engine, script engine, image decoders and so on run within the Render Process, which has the least privileges.
-- Every different origin frame is spun off into its own process Render Process thereby preventing web pages from accessing other domain user data also.
-- There are other process like the GPU Process with access to the GPU to execute GL commands, a process to run Extensions (similar to the render process with a few special privileges), PPAPI Process to support Pepper plugins, and a few more such process, either experimental or in the mainline.
+To explain briefly, Chromium runs as a multi-process application. At the root is the Browser Process which has the maximum privileges to access all hardware and data resources on a machine. The rendering engine, script engine, image decoders and so on run within the Render Process, which has the least privileges. Every different origin frame is spun off into its own process Render Process thereby preventing web pages from accessing other domain user data also. There are other process like the GPU Process for rendering content to screen and so on.
 
 Even with a complex architecture built for security, like any other software Chromium too can have bugs which can be [exploited](https://blog.theori.io/research/escaping-chrome-sandbox/).
 
