@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Products on Cyberguard - Cyber Security | Solutions | Services | Support | DevOps | DevSecOps</title>
+    <link>https://cyberguardsec.com/products/</link>
+    <description>Recent content in Products on Cyberguard - Cyber Security | Solutions | Services | Support | DevOps | DevSecOps</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://cyberguardsec.com/products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CRUSOE SURF (RBI)</title>
+      <link>https://cyberguardsec.com/products/crusoe-surf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cyberguardsec.com/products/crusoe-surf/</guid>
+      <description>What is Crusoe Surf? Crusoe Surf enables end-users to naturally browse the web while leaving malware, including Zero Day attacks, safely isolated from the internal network and end-user endpoints.</description>
+    </item>
+    
+  </channel>
+</rss>
