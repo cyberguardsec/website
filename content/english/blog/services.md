@@ -8,7 +8,7 @@ image: images/blog/browsers.jpg
 draft: true
 ---
 
-Most of us provides some sort services at the same time also consumes it. But have we given a thought what Service actually is? Let’s try to scratch a surface a little bit and explore its contribution as a sector and its important.
+Most of us provides some sort services and at the same time also consumes it. But have we given a thought what Service actually is? Let’s try to scratch a surface a little bit and explore its contribution as a sector and its important.
 
 Service can mean a lot of different things to different people. For lawyers, service is the formal delivery of legal documents such as a summons. For homeowners, it can be a utility such as gas, electricity, or water. For car owners, it’s the annual maintenance of their vehicle. For caregivers, it may be in the form of taking care of their patients.
 
