@@ -8,55 +8,33 @@ image: images/blog/browsers.jpg
 draft: true
 ---
 
-The computer is one of the greatest inventions of the last century. Imagine a world without a computer and computers without underlying software. Computers and software not only made our lives easier but helps us see beyond our imagination.
+Most of us provides some sort services at the same time also consumes it. But have we given a thought what Service actually is? Let’s try to scratch a surface a little bit and explore its contribution as a sector and its important.
 
-The history of software development, with the more and more progress, has covered a wide range of innovation indeed. Additional information on how to improve different systems, which can help business and other organizations, have surfaced. 
+Service can mean a lot of different things to different people. For lawyers, service is the formal delivery of legal documents such as a summons. For homeowners, it can be a utility such as gas, electricity, or water. For car owners, it’s the annual maintenance of their vehicle. For caregivers, it may be in the form of taking care of their patients.
 
-> Software and technology have moved from sector to sector, helping companies reimagine the speed, scale, and depth of how they operate.
+### What is a Service?
 
-Today, the programming language and operating systems only continue to be enhanced further.
+Service is an activity where more than two persons/entities are involved and one of them offer a value addition to others. 
 
-Software development has been supported by different kinds of programming through the years. For example, object-oriented programming is a model that focuses on software design on data, or so-called objects, instead of functions and logic.  
+According to Philip Kotler *“A service is an act of performance that one party can offer to another that is essentially intangible and does not result in the ownership of anything. Its production may or may not be tied to a physical product.”*
 
-On the other hand, structured programming—another term software engineering professional knows—is a model that makes use of structured control flow constructs of selection and repetition, among others, in developing computer programs and systems.
+For example, with computer software, a service is software that performs automated tasks, responds to hardware events, or listens for data requests from other software.
 
-Even though the languages, such as [Java](https://www.java.com/en/) and [Python](https://www.python.org/), are relatively younger compared to others, they have become a staple in software development projects.
+The three industries within the services division that experienced the most growth in the last decade have been business services, health care, and social services. The business services areas in which the largest number of jobs was gained were personnel supply and computer services. The computer services industry includes mass-produced software, custom programming, custom computer systems design, and computer leasing. The primary reason for growth in both of these areas has been changes in business processes.
 
-> The recent outbreak of COVID 19 around the world has forced everyone to rely on technology more than ever before. Every industry is going through major digital overhaul due to change in consumer behavior. Backed by strong software support, people are adopting to changes right from Work from Home (WFH) to Virtual Learning / E-learning to Contactless Services, E-commerce to digital payments.
+### Contribution of Service Sector in Economy Growth
 
-## Making an impact with Software Services
+Services sector is the lifeline for the socio-economic growth of a country. It is today the largest and fastest growing sector globally contributing more to the global output and employing more people than any other sector. In alignment with global trend, the Indian Services sector has witnessed a major boom and is one of the major contributors to both employment and national income in recent time.
 
+### Driving forces of Service sector growth in India
 
-## 2021 and Beyond
+India has the fastest growing service sector in the world and contribute about 66% to Indian GDP and is mostly driven by
 
-**Cybersecurity**
+ - Large pool of STEM talent
+ - Cost advantage
+ - Expertise in technology enabled business transformation
+ - Vibrant start-up ecosystem
 
-Due to the pandemic, data and device security became paramount while your team is working remotely. Since we have been witnessing increase in cyber attacks and innovative approach of attackers, traditional detection based security tools won't help much to safeguard against cyber threats including zero day attacks.
+India is the export hub for IT and ITeS. The Indian IT outsourcing services expected to witness 6 - 8% growth between 2021 to 2024. Large pool of skilled manpower especially in the areas of IT and ITeS is available at lower cost. Indian IT firms have world class global delivery center across the world and are well diversified across verticals such as BFSI, Healthcare, Retail, Telecom etc.
 
- - Cloud breaches
- - Ransomware Attacks
- - Preventing measures
-
- **Artificial Intelligence (AI)**
-
- Artificial Intelligence (AI) has been around for quite some time but is still in trend due to its potential and various use cases. 
- - Computer Vision Applications
- - Predictive Analytics
- - Neuro-linguistic programming (NLP) and automated speech recognition(ASR)
-
-**Internet of Things (IoTs)** 
-
-**Blockchains**
-
-Decentralization makes the blockchain extremely safe and ideal for all sorts of online operations, money transfers, smart development, and so on. Blockchain is no more limited just to crypto-currencies and banking sector. We can see major adoptions of this technology in various industry such as Supply Chain Management, Insurance, Healthcare, Transportation and warehousing and Cybersecurity.
-
-**Big Data Analytics**
-
-**Progressive Web Applications**
-
-**Java and JVM**
-
-**Python**
-
-
-With the ongoing disruptions in business operations, business owners are thinking ahead and outsourcing product development to trusted technology partners to free up their time, save cost, and drive efficiency.
+India’s distinctive competencies and competitive advantage formed by the knowledge-based services makes it unique emerging market in the world. The services sector in India has the potential to unlock a multi-trillion dollar opportunity which can create mutual growth for all nations.
