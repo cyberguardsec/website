@@ -1,10 +1,10 @@
 ---
 title: "Services"
 date: 2021-08-13T14:52:13+05:30
-author: John Doe
-description : "This is meta description"
-image_webp: images/blog/meta.webp
-image: images/blog/browsers.jpg
+author: Bhushan Mahindrakar
+description : "The service sector is the lifeline for the socio-economic growth of any country."
+image_webp: images/blog/services.webp
+image: images/blog/services.jpg
 draft: true
 ---
 
@@ -14,13 +14,17 @@ Service can mean a lot of different things to different people. For lawyers, ser
 
 ### What is a Service?
 
-Service is an activity where more than two persons/entities are involved and one of them offers value addition to others in exchange for money.
+Service is an activity where more than two persons/entities are involved and one of them offers value addition to others.
 
 According to Philip Kotler “A service is an act of performance that one party can offer to another that is essentially intangible and does not result in the ownership of anything. Its production may or may not be tied to a physical product.”*
 
 With computer software, a service is software that performs automated tasks, responds to hardware events, or listens for data requests from other software.
 
 The three industries within the services division that experienced the most growth in the last decade have been business services, health care, and social services. The business services areas in which the largest number of jobs was gained were personnel supply and computer services. The computer services industry includes mass-produced software, custom programming, custom computer systems design, and computer leasing. The primary reason for the growth in both of these areas has been changed in business processes.
+
+Another important type of services is community services. Though service provider don't get paid for his service, its helps toward betterment of community as a whole. Community service develops an increased sense of social responsibility – a global view of society and a heart for ‘giving back’ and helping others.
+
+Take an example of Open Source Software. Open Source Software embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency, meritocracy, and community-oriented development.
 
 ### Contribution of Service Sector in Economy Growth
 
