@@ -2,7 +2,7 @@
 title: "Organizational Success"
 date: 2021-09-20T15:45:06+05:30
 author: Bhushan Mahindrakar
-description : "Company culture is one of the important factors that plays a vital role in shaping the future of organisations and its employees."
+description : "Company culture is an important factor that plays a vital role in organization's success."
 image_webp: images/blog/organisational-success.webp
 image: images/blog/organisational-success.jpg
 ---
