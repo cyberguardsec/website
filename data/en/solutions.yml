@@ -31,13 +31,6 @@ solutions:
       content : Securely Work from Anywhere and at Anytime.
       link : "#"
 
-    - name : Crusoe Surf
-      image : images/solutions/products/crusoe.png
-      image_webp : images/solutions/products/crusoe.webp
-      categories : ["Products"]
-      content : Unleash the power of next generation cyber security technology.
-      link : "/products/crusoe-surf"
-
     - name : Privileged Identity Management
       image : images/solutions/products/pim.png
       image_webp : images/solutions/products/pim.webp
